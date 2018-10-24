@@ -4,7 +4,7 @@
 
 	<!-- Basic Page Needs
 	================================================== -->
-	<title>Alchemists Basketball Club &amp; Sports News HTML Template - Roster V2</title>
+	<title>Alchemists Basketball Club &amp; Sports News HTML Template - Roster V1</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Sports Club, League and News HTML Template">
@@ -551,11 +551,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
-						<h1 class="page-heading__title">Roster <span class="highlight">V2</span></h1>
+						<h1 class="page-heading__title">Roster <span class="highlight">V1</span></h1>
 						<ol class="page-heading__breadcrumb breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 							<li class="breadcrumb-item"><a href="team-overview.html">Team</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Roster V2</li>
+							<li class="breadcrumb-item active" aria-current="page">Roster V1</li>
 						</ol>
 					</div>
 				</div>
@@ -586,197 +586,132 @@
 		<div class="site-content">
 			<div class="container">
 		
-				<!-- Team Roster: Slider -->
-				<div class="team-roster team-roster--slider">
-					<!-- Player #0-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/aleksandar_cepic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">9</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Aleksanar</span>
-									<span class="team-roster__player-last-name">Cepić</span>
-								</h3>
-								<div class="team-roster__player-position">1st Shooting Guard</div>
+				<!-- Team Roster: Grid -->
+				<div class="team-roster team-roster--grid row">
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/aleksa_kojovic.jpg" alt="" style="max-width:100%;max-height:100%;">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">38</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">James</span>
+											<span class="team-roster__member-last-name">Girobili</span>
+										</h2>
+										<span class="team-roster__member-position">1st Shooting Guard</span>
+									</div>
+								</div>
 							</div>
+							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						{{-- <div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div> --}}
-						<!-- FAB (More Info) / End -->
 					</div>
-					<!-- Player #0 / End -->
-					<!-- Player #1-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/aleksandar_rankovic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">24</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Aleksandar</span>
-									<span class="team-roster__player-last-name">Ranković</span>
-								</h3>
-								<div class="team-roster__player-position">1st Power Forward</div>
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/rsz_aleksa_kojovic.jpg" alt="">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">24</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">Mark</span>
+											<span class="team-roster__member-last-name">Stevens</span>
+										</h2>
+										<span class="team-roster__member-position">1st Power Forward</span>
+									</div>
+								</div>
 							</div>
+							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
 					</div>
-					<!-- Player #1 / End -->
-					<!-- Player #2-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/danilo_pavicevic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">11</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Danilo</span>
-									<span class="team-roster__player-last-name">Pavicević</span>
-								</h3>
-								<div class="team-roster__player-position">1st Center</div>
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/DSC_0395.jpg" alt="">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">07</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">Jenny</span>
+											<span class="team-roster__member-last-name">Valentine</span>
+										</h2>
+										<span class="team-roster__member-position">1st Small Forward</span>
+									</div>
+								</div>
 							</div>
+							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
 					</div>
-					<!-- Player #2 / End -->
-					<!-- Player #3-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_02.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">15</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Nick</span>
-									<span class="team-roster__player-last-name">Rodgers</span>
-								</h3>
-								<div class="team-roster__player-position">1st Point Guard</div>
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/DSC_0391.jpg" alt="">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">11</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">Marian</span>
+											<span class="team-roster__member-last-name">Diamond</span>
+										</h2>
+										<span class="team-roster__member-position">1st Center</span>
+									</div>
+								</div>
 							</div>
+							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
 					</div>
-					<!-- Player #3 / End -->
-					<!-- Player #4-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_01.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">26</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Thomas</span>
-									<span class="team-roster__player-last-name">Black</span>
-								</h3>
-								<div class="team-roster__player-position">2nd Shooting Guard</div>
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/predrag_lazarevic.jpg" alt="">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">15</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">Nick</span>
+											<span class="team-roster__member-last-name">Rodgers</span>
+										</h2>
+										<span class="team-roster__member-position">1st Point Guard</span>
+									</div>
+								</div>
 							</div>
+							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
 					</div>
-					<!-- Player #4 / End -->
-					<!-- Player #5-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_02.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">32</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Spike</span>
-									<span class="team-roster__player-last-name">Arrowhead</span>
-								</h3>
-								<div class="team-roster__player-position">2nd Power Forward</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #5 / End -->
-				</div>
-				<!-- Team Roster: Slider / End -->
 		
+					<div class="team-roster__item col-6 col-sm-4">
+						<div class="team-roster__holder">
+							<figure class="team-roster__img">
+								<img src="assets/images/samples/roster_player_06.jpg" alt="">
+							</figure>
+							<div class="team-roster__content">
+								<div class="team-roster__content-inner">
+									<div class="team-roster__member-number">CH</div>
+									<div class="team-roster__member-info">
+										<h2 class="team-roster__member-name">
+											<span class="team-roster__member-first-name">Robert</span>
+											<span class="team-roster__member-last-name">Frankson</span>
+										</h2>
+										<span class="team-roster__member-position">Team Coach</span>
+									</div>
+								</div>
+							</div>
+							<a href="staff-single.html" class="btn-fab"></a>
+						</div>
+					</div>
+		
+				</div>
+				<!-- Team Roster: Grid / End -->
 		
 		
 				<div class="row">

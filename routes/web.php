@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/team', function () {
     return view('team-roster');
 });
+
+Route::get('/team2', function () {
+    return view('team-roster-1');
+});
+
+Route::get('/gallery', function () {
+    return view('team-roster');
+});

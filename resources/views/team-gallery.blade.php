@@ -4,7 +4,7 @@
 
 	<!-- Basic Page Needs
 	================================================== -->
-	<title>Alchemists Basketball Club &amp; Sports News HTML Template - Roster V2</title>
+	<title>Alchemists Basketball Club &amp; Sports News HTML Template - Album</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Sports Club, League and News HTML Template">
@@ -551,11 +551,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
-						<h1 class="page-heading__title">Roster <span class="highlight">V2</span></h1>
+						<h1 class="page-heading__title">Single <span class="highlight">Album</span></h1>
 						<ol class="page-heading__breadcrumb breadcrumb">
 							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 							<li class="breadcrumb-item"><a href="team-overview.html">Team</a></li>
-							<li class="breadcrumb-item active" aria-current="page">Roster V2</li>
+							<li class="breadcrumb-item"><a href="team-gallery.html">Gallery</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Album</li>
 						</ol>
 					</div>
 				</div>
@@ -565,533 +566,168 @@
 		
 
 		
-		<!-- Team Pages Filter -->
-		<nav class="content-filter">
-			<div class="container">
-				<a href="#" class="content-filter__toggle"></a>
-				<ul class="content-filter__list">
-					<li class="content-filter__item "><a href="team-overview.html" class="content-filter__link"><small>The Team</small>Overview</a></li>
-					<li class="content-filter__item content-filter__item--active"><a href="team-roster-1.html" class="content-filter__link"><small>The Team</small>Roster</a></li>
-					<li class="content-filter__item "><a href="team-standings.html" class="content-filter__link"><small>The Team</small>Standings</a></li>
-					<li class="content-filter__item "><a href="team-last-results.html" class="content-filter__link"><small>The Team</small>Latest Results</a></li>
-					<li class="content-filter__item "><a href="team-schedule.html" class="content-filter__link"><small>The Team</small>Schedule</a></li>
-					<li class="content-filter__item "><a href="team-gallery.html" class="content-filter__link"><small>The Team</small>Gallery</a></li>
-				</ul>
-			</div>
-		</nav>
-		<!-- Team Pages Filter / End -->
-		
 		<!-- Content
 		================================================== -->
 		<div class="site-content">
+		
 			<div class="container">
-		
-				<!-- Team Roster: Slider -->
-				<div class="team-roster team-roster--slider">
-					<!-- Player #0-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/aleksandar_cepic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">9</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Aleksanar</span>
-									<span class="team-roster__player-last-name">Cepić</span>
-								</h3>
-								<div class="team-roster__player-position">1st Shooting Guard</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						{{-- <div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div> --}}
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #0 / End -->
-					<!-- Player #1-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/aleksandar_rankovic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">24</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Aleksandar</span>
-									<span class="team-roster__player-last-name">Ranković</span>
-								</h3>
-								<div class="team-roster__player-position">1st Power Forward</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #1 / End -->
-					<!-- Player #2-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/rs/danilo_pavicevic.jpg" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">11</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Danilo</span>
-									<span class="team-roster__player-last-name">Pavicević</span>
-								</h3>
-								<div class="team-roster__player-position">1st Center</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #2 / End -->
-					<!-- Player #3-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_02.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">15</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Nick</span>
-									<span class="team-roster__player-last-name">Rodgers</span>
-								</h3>
-								<div class="team-roster__player-position">1st Point Guard</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #3 / End -->
-					<!-- Player #4-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_01.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">26</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Thomas</span>
-									<span class="team-roster__player-last-name">Black</span>
-								</h3>
-								<div class="team-roster__player-position">2nd Shooting Guard</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #4 / End -->
-					<!-- Player #5-->
-					<div class="team-roster__item">
-						<!-- Player Photo -->
-						<figure class="team-roster__img">
-							<img src="assets/images/samples/rosterv2_player_02.png" alt="">
-							<div class="team-roster__img-ring-top"></div>
-							<div class="team-roster__img-ring-bottom"></div>
-						</figure>
-						<!-- Player Photo / End-->
-						<!-- Player Details -->
-						<div class="team-roster__player-details">
-							<div class="team-roster__player-number">32</div>
-							<div class="team-roster__player-info">
-								<h3 class="team-roster__player-name">
-									<span class="team-roster__player-first-name">Spike</span>
-									<span class="team-roster__player-last-name">Arrowhead</span>
-								</h3>
-								<div class="team-roster__player-position">2nd Power Forward</div>
-							</div>
-						</div>
-						<!-- Player Details / End -->
-						<!-- FAB (More Info)-->
-						<div class="team-roster__player-fab">
-							<a href="player-overview.html" class="team-roster__player-more">
-								<span class="btn-fab btn-fab--sm"></span>
-								<span class="team-roster__player-fab-txt">Check the<br>Player's Bio</span>
-							</a>
-						</div>
-						<!-- FAB (More Info) / End -->
-					</div>
-					<!-- Player #5 / End -->
-				</div>
-				<!-- Team Roster: Slider / End -->
-		
-		
-		
-				<div class="row">
-					<!-- Team Roster: Table -->
-					<div class="col-md-8">
-						<div class="card card--has-table">
-							<div class="card__header">
-								<h4>Complete Roster</h4>
-							</div>
-							<div class="card__content">
-								<div class="table-responsive">
-									<table class="table table--lg team-roster-table">
-										<thead>
-											<tr>
-												<th class="team-roster-table__number">NBR</th>
-												<th class="team-roster-table__name">Player Name</th>
-												<th class="team-roster-table__position hidden-xs hidden-sm">Position</th>
-												<th class="team-roster-table__age">Age</th>
-												<th class="team-roster-table__height">Height</th>
-												<th class="team-roster-table__weight">Weight</th>
-												<th class="team-roster-table__college hidden-xs hidden-sm">College</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td class="team-roster-table__number">38</td>
-												<td class="team-roster-table__name">Games Girobili</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">1st Shooting Guard</td>
-												<td class="team-roster-table__age">18</td>
-												<td class="team-roster-table__height">6&#x27;6&quot;</td>
-												<td class="team-roster-table__weight">205 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">South Beach College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">24</td>
-												<td class="team-roster-table__name">Mark Stevens</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">1st Power Forward</td>
-												<td class="team-roster-table__age">20</td>
-												<td class="team-roster-table__height">6&#x27;8&quot;</td>
-												<td class="team-roster-table__weight">220 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">Green Palm College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">06</td>
-												<td class="team-roster-table__name">Jay T.Roks</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">1st Small Forward</td>
-												<td class="team-roster-table__age">17</td>
-												<td class="team-roster-table__height">6&#x27;10&quot;</td>
-												<td class="team-roster-table__weight">234 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">The Sandy Coast Institute</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">15</td>
-												<td class="team-roster-table__name">Nick Rodgers</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">1st Point Guard</td>
-												<td class="team-roster-table__age">18</td>
-												<td class="team-roster-table__height">6&#x27;9&quot;</td>
-												<td class="team-roster-table__weight">226 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">South Beach College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">12</td>
-												<td class="team-roster-table__name">Tony Ironson</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">1st Center</td>
-												<td class="team-roster-table__age">19</td>
-												<td class="team-roster-table__height">6&#x27;7&quot;</td>
-												<td class="team-roster-table__weight">240 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">Green Palm College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">26</td>
-												<td class="team-roster-table__name">Thomas Black</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">2nd Shooting Guard</td>
-												<td class="team-roster-table__age">18</td>
-												<td class="team-roster-table__height">6&#x27;5&quot;</td>
-												<td class="team-roster-table__weight">238 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">The Sandy Coast Institute</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">32</td>
-												<td class="team-roster-table__name">Spike Arrowhead</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">2nd Power Forward</td>
-												<td class="team-roster-table__age">18</td>
-												<td class="team-roster-table__height">6&#x27;8&quot;</td>
-												<td class="team-roster-table__weight">252 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">The Sandy Coast Institute</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">39</td>
-												<td class="team-roster-table__name">Tim Robertson</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">2nd Small Forward</td>
-												<td class="team-roster-table__age">20</td>
-												<td class="team-roster-table__height">6&#x27;7&quot;</td>
-												<td class="team-roster-table__weight">242 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">Green Palm College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">09</td>
-												<td class="team-roster-table__name">Jake Dogmich</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">2nd Point Guard</td>
-												<td class="team-roster-table__age">20</td>
-												<td class="team-roster-table__height">6&#x27;10&quot;</td>
-												<td class="team-roster-table__weight">213 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">Green Palm Beach</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">02</td>
-												<td class="team-roster-table__name">Griffin Peterson</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">2nd Center</td>
-												<td class="team-roster-table__age">19</td>
-												<td class="team-roster-table__height">6&#x27;8&quot;</td>
-												<td class="team-roster-table__weight">217 lbs</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">South Beach College</td>
-											</tr>
-											<tr>
-												<td class="team-roster-table__number">CH</td>
-												<td class="team-roster-table__name">Robert Frankson</td>
-												<td class="team-roster-table__position hidden-xs hidden-sm">Team Coach</td>
-												<td class="team-roster-table__age">52</td>
-												<td class="team-roster-table__height">-</td>
-												<td class="team-roster-table__weight">-</td>
-												<td class="team-roster-table__college hidden-xs hidden-sm">Green Palm College</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Team Roster: Table / End -->
-		
-					<!-- Featured Player -->
-					<div class="col-md-4">
-		
-						<!-- Widget: Featured Player - Alternative Extended -->
-						<aside class="widget card widget--sidebar widget-player widget-player--alt">
-							<div class="widget__title card__header">
-								<h4>Featured Player</h4>
-							</div>
-							<div class="widget__content card__content">
-								<div class="widget-player__team-logo">
-									<img src="assets/images/logo.png" alt="">
-								</div>
-								<figure class="widget-player__photo">
-									<img src="assets/images/samples/widget-featured-player.png" alt="">
-								</figure>
-								<header class="widget-player__header clearfix">
-									<div class="widget-player__number">38</div>
-									<h4 class="widget-player__name">
-										<span class="widget-player__first-name">James</span>
-										<span class="widget-player__last-name">Girobili</span>
-									</h4>
-								</header>
-								<div class="widget-player__content">
-									<div class="widget-player__content-inner">
-										<div class="widget-player__stat widget-player__assists">
-											<h6 class="widget-player__stat-label">Assists</h6>
-											<div class="widget-player__stat-number">16.9</div>
-											<div class="widget-player__stat-legend">AVG</div>
-										</div>
-										<div class="widget-player__stat widget-player__steals">
-											<h6 class="widget-player__stat-label">Steals</h6>
-											<div class="widget-player__stat-number">7.2</div>
-											<div class="widget-player__stat-legend">AVG</div>
-										</div>
-										<div class="widget-player__stat widget-player__blocks">
-											<h6 class="widget-player__stat-label">Blocks</h6>
-											<div class="widget-player__stat-number">12.4</div>
-											<div class="widget-player__stat-legend">AVG</div>
-										</div>
-									</div>
-								</div>
-								<footer class="widget-player__footer">
-									<span class="widget-player__footer-txt">
-										1st Shooting Guard
-									</span>
-								</footer>
-							</div>
-							<div class="widget__content-secondary">
-						
-								<!-- Player Details -->
-								<div class="widget-player__details">
-						
-									<div class="widget-player__details-row">
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">2 Points</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">1250</span>
-											</div>
-										</div>
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">3 Points</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">680</span>
-											</div>
-										</div>
-									</div>
-						
-									<div class="widget-player__details-row">
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Rebounds</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">234</span>
-											</div>
-										</div>
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Assists</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">751</span>
-											</div>
-										</div>
-									</div>
-						
-									<div class="widget-player__details-row">
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Steals</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">472</span>
-											</div>
-										</div>
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Blocks</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">565</span>
-											</div>
-										</div>
-									</div>
-						
-									<div class="widget-player__details-row">
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Fouls</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">97</span>
-											</div>
-										</div>
-										<div class="widget-player__details__item">
-											<div class="widget-player__details-desc-wrapper">
-												<span class="widget-player__details-holder">
-													<span class="widget-player__details-label">Game Played</span>
-													<span class="widget-player__details-desc">In his career</span>
-												</span>
-												<span class="widget-player__details-value">104</span>
-											</div>
-										</div>
-									</div>
-						
-								</div>
-								<!-- Player Details / End -->
-						
-							</div>
-						
-							<div class="widget__content-tertiary widget__content--bottom-decor">
-								<div class="widget__content-inner">
-									<div class="widget-player__stats row">
-										<div class="col-4">
-											<div class="widget-player__stat-item">
-												<div class="widget-player__stat-circular circular">
-													<div class="circular__bar" data-percent="88">
-														<span class="circular__percents">88<small>%</small></span>
-													</div>
-													<span class="circular__label">Shot<br> Accuracy</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-4">
-											<div class="widget-player__stat-item">
-												<div class="widget-player__stat-circular circular">
-													<div class="circular__bar" data-percent="63">
-														<span class="circular__percents">63<small>%</small></span>
-													</div>
-													<span class="circular__label">Pass<br> Accuracy</span>
-												</div>
-											</div>
-										</div>
-										<div class="col-4">
-											<div class="widget-player__stat-item">
-												<div class="widget-player__stat-circular circular">
-													<div class="circular__bar" data-percent="75.5">
-														<span class="circular__percents">75.5<small>%</small></span>
-													</div>
-													<span class="circular__label">Total<br> Efficiency</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</aside>
-						<!-- Widget: Featured Player - Alternative Extended / End -->
-		
-					</div>
-					<!-- Featured Player / End -->
+				<div class="content-title">
+					<h2 class="content-title__h">Photoshoot for 2017</h2>
+					<a href="team-gallery.html" class="btn btn-xs btn-default btn-outline">Go Back to the Albums</a>
 				</div>
 			</div>
+		
+			<!-- Album -->
+			<div class="album album--condensed container-fluid">
+				<div class="row">
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img1.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img1.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">The team is taking a summer vacation on Woody Valley</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img2.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img2.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">Mark Johnson has a Tibia Fracture and is gonna be out</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img5.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img5.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">Cheerleader tryouts will start next Friday at 5pm</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img3.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img3.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">The new eco friendly stadium won a Leafy Award in 2016</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img4.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img4.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">James Girobilli in the charity event in L.A. Beach</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-md-8">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img6.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img6.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">The Planetrotters will perform this May 4th at Madison Cube</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img7.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img7.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">Jeremy Rittersen was called to be in the National Team</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="album__item col-xs-6 col-sm-4">
+						<div class="album__item-holder">
+							<a href="assets/images/samples/album-img8.jpg" class="album__item-link mp_gallery">
+								<figure class="album__thumb">
+									<img src="assets/images/samples/album-img8.jpg" alt="">
+								</figure>
+								<div class="album__item-desc">
+									<h4 class="album__item-title">The team is taking a summer vacation on Woody Valley</h4>
+									<time class="album__item-date" datetime="2016-08-23">August 23rd, 2016</time>
+									<span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
+								</div>
+							</a>
+							<ul class="album__item-meta meta">
+								<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Gallery Album / End -->
+		
+			<!-- Load More -->
+			<div class="container">
+				<div class="album-load-more">
+					<a href="#" class="btn btn-default btn-lg btn-block">Load More Photos...</a>
+				</div>
+			</div>
+			<!-- Load More / End -->
+		
 		</div>
 		
 		<!-- Content / End -->
