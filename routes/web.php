@@ -24,5 +24,5 @@ Route::get('/team2', function () {
 });
 
 Route::get('/gallery', function () {
-    return view('team-roster');
+    return view('team-gallery');
 });

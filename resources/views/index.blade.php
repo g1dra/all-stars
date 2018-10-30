@@ -35,7 +35,7 @@
 	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
 
 	<!-- Template CSS-->
-	<link href="assets/css/style-basketball.css" rel="stylesheet">
+	<link href="assets/css/style-basketball-dark.css" rel="stylesheet">
 
 	<!-- Custom CSS-->
 	<link href="assets/css/custom.css" rel="stylesheet">
@@ -68,7 +68,7 @@
 		
 					<!-- Account Navigation -->
 					<ul class="nav-account">
-						<li class="nav-account__item"><a href="#" data-toggle="modal" data-target="#modal-login-register">Your Account</a></li>
+						{{--<li class="nav-account__item"><a href="#" data-toggle="modal" data-target="#modal-login-register">Your Account</a></li>
 						<li class="nav-account__item nav-account__item--wishlist"><a href="shop-wishlist.html">Wishlist <span class="highlight">8</span></a></li>
 						<li class="nav-account__item"><a href="#">Currency: <span class="highlight">USD</span></a>
 							<ul class="main-nav__sub">
@@ -76,7 +76,7 @@
 								<li><a href="#">EUR</a></li>
 								<li><a href="#">GBP</a></li>
 							</ul>
-						</li>
+						</li>--}}
 						<li class="nav-account__item"><a href="#">Language: <span class="highlight">EN</span></a>
 							<ul class="main-nav__sub">
 								<li><a href="#">English</a></li>
@@ -85,7 +85,7 @@
 								<li><a href="#">German</a></li>
 							</ul>
 						</li>
-						<li class="nav-account__item nav-account__item--logout"><a href="#">Logout</a></li>
+						{{----}}<li class="nav-account__item nav-account__item--logout"><a href="#">Logout</a></li>
 					</ul>
 					<!-- Account Navigation / End -->
 		
@@ -98,12 +98,12 @@
 				<div class="container">
 		
 					<!-- Header Search Form -->
-					<div class="header-search-form">
+					{{--<div class="header-search-form">
 						<form action="#" id="mobile-search-form" class="search-form">
 							<input type="text" class="form-control header-mobile__search-control" value="" placeholder="Enter your search here...">
 							<button type="submit" class="header-mobile__search-submit"><i class="fa fa-search"></i></button>
 						</form>
-					</div>
+					</div>--}}
 					<!-- Header Search Form / End -->
 		
 					<ul class="info-block info-block--header">
@@ -121,7 +121,8 @@
 							<h6 class="info-block__heading">Contact Us</h6>
 							<a class="info-block__link" href="mailto:info@alchemists.com">info@alchemists.com</a>
 						</li>
-						<li class="info-block__item info-block__item--shopping-cart">
+						<!-- Header Search Form -->
+						{{--<li class="info-block__item info-block__item--shopping-cart">
 							<a href="#" class="info-block__link-wrapper">
 								<div class="df-icon-stack df-icon-stack--bag">
 									<svg role="img" class="df-icon df-icon--bag">
@@ -134,10 +135,10 @@
 								<h6 class="info-block__heading">Your Bag (8 items)</h6>
 								<span class="info-block__cart-sum">$256,30</span>
 							</a>
-		
+
 							<!-- Dropdown Shopping Cart -->
 							<ul class="header-cart">
-		
+
 								<li class="header-cart__item">
 									<figure class="header-cart__product-thumb">
 										<a href="shop-product.html">
@@ -204,7 +205,7 @@
 										<div class="fa fa-times header-cart__close"></div>
 									</div>
 								</li>
-		
+
 								<li class="header-cart__item header-cart__item--subtotal">
 									<span class="header-cart__subtotal">Cart Subtotal</span>
 									<span class="header-cart__subtotal-sum">$282.00</span>
@@ -215,8 +216,9 @@
 								</li>
 							</ul>
 							<!-- Dropdown Shopping Cart / End -->
-		
-						</li>
+
+						</li>--}}
+						<!-- Header Search Form / End -->
 					</ul>
 				</div>
 			</div>
@@ -228,22 +230,23 @@
 					<div class="header__primary-inner">
 						<!-- Header Logo -->
 						<div class="header-logo">
-							<a href="index.html"><img src="assets/images/logo_no_bg.png" alt="Alchemists" srcset="assets/images/logo@2x.png 2x" class="header-logo__img"></a>
+							<a href="/"><img src="assets/images/logo_no_bg.png" alt="Alchemists" srcset="assets/images/logo@2x.png 2x" class="header-logo__img"></a>
 						</div>
 						<!-- Header Logo / End -->
 		
 						<!-- Main Navigation -->
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
-								<li class="active"><a href="index.html">Home</a>
-									<ul class="main-nav__sub">
+								<li class="active"><a href="/">Početna</a>
+									{{--<ul class="main-nav__sub">
 										<li class="active"><a href="index.html">Home - version 1</a></li>
 										<li class=""><a href="index-2.html">Home - version 2</a></li>
 										<li class=""><a href="index-3.html">Home - version 3</a></li>
 									</ul>
+									--}}
 								</li>
-								<li class=""><a href="#">Features</a>
-									<div class="main-nav__megamenu clearfix">
+								<li class=""><a href="#">Klub</a>
+									{{--<div class="main-nav__megamenu clearfix">
 										<ul class="col-lg-2 col-md-3 col-12 main-nav__ul">
 											<li class="main-nav__title">Features</li>
 											<li><a href="features-shortcodes.html">Shortcodes</a></li>
@@ -339,8 +342,9 @@
 											</ul>
 										</div>
 									</div>
+									--}}
 								</li>
-								<li class=""><a href="#">The Team</a>
+								<li class=""><a href="#">Takmičenja</a>
 									<ul class="main-nav__sub">
 										<li><a href="team-overview.html">Overview</a></li>
 										<li><a href="team-roster-2.html">Roster</a>
@@ -370,7 +374,7 @@
 										<li><a href="staff-single.html">Staff Member</a></li>
 									</ul>
 								</li>
-								<li class=""><a href="#">News</a>
+								<li class=""><a href="#">Galerija</a>
 									<ul class="main-nav__sub">
 										<li class=""><a href="blog-1.html">News - version 1</a></li>
 										<li class=""><a href="blog-2.html">News - version 2</a></li>
@@ -385,7 +389,7 @@
 										</li>
 									</ul>
 								</li>
-								<li class=""><a href="shop-grid.html">Shop</a>
+								<li class=""><a href="shop-grid.html">Kontakt</a>
 									<ul class="main-nav__sub">
 										<li class=""><a href="shop-grid.html">Shop - Grid</a></li>
 										<li class=""><a href="shop-list.html">Shop - List</a></li>
@@ -407,10 +411,10 @@
 									<a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa fa-facebook"></i></a>
 								</li>
 								<li class="social-links__item">
-									<a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa fa-twitter"></i></a>
+									<a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa fa-instagram"></i></a>
 								</li>
 								<li class="social-links__item">
-									<a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa fa-google-plus"></i></a>
+									<a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa fa-youtube-play"></i></a>
 								</li>
 		
 							</ul>
@@ -547,6 +551,7 @@
 		<!-- Hero Unit
 		================================================== -->
 		<div class="hero-unit">
+			{{--
 			<div class="container hero-unit__container">
 				<div class="hero-unit__content hero-unit__content--left-center">
 					<span class="hero-unit__decor">
@@ -557,15 +562,16 @@
 					<div class="hero-unit__desc">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore .</div>
 					<a href="#" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed hero-unit__btn">Read More <i class="fa fa-plus text-primary"></i></a>
 				</div>
-		
-				<figure class="hero-unit__img">
-					<img src="assets/images/samples/header_player.png" alt="Hero Unit Image">
-				</figure>
+				--}}
+				{{--<figure class="hero-unit__img">--}}
+					{{--<img src="assets/images/samples/header_player.png" alt="Hero Unit Image">--}}
+				{{--</figure>--}}
 			</div>
 		</div>
 
 		<!-- Header Featured News
 		================================================== -->
+		{{--
 		<div class="posts posts--carousel-featured featured-carousel">
 		
 			<div class="posts__item posts__item--category-1">
@@ -665,7 +671,7 @@
 			</div>
 		
 		</div>
-
+		--}}
 		
 		<!-- Content
 		================================================== -->
