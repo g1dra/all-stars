@@ -238,14 +238,35 @@
 						<nav class="main-nav clearfix">
 							<ul class="main-nav__list">
 								<li class="active"><a href="/">Početna</a>
-									{{--<ul class="main-nav__sub">
-										<li class="active"><a href="index.html">Home - version 1</a></li>
-										<li class=""><a href="index-2.html">Home - version 2</a></li>
-										<li class=""><a href="index-3.html">Home - version 3</a></li>
+									<ul class="main-nav__sub">
+										<li class="active"><a href="#"> Vijesti</a></li>
+										<li class=""><a href="#"> Aktuelno</a></li>
 									</ul>
-									--}}
 								</li>
 								<li class=""><a href="#">Klub</a>
+									<ul class="main-nav__sub">
+										<li><a href="team-overview.html">Uprava</a></li>
+										<li><a href="team-overview.html">Istorija</a></li>
+										<li><a href="team-roster-2.html">Roster</a></li>
+										<li><a href="team-standings.html">Mladje katergorije</a></li>
+										{{--<li><a href="team-last-results.html">Latest Results</a></li>
+										<li><a href="team-schedule.html">Schedule</a></li>
+										<li><a href="team-gallery.html">Gallery</a>
+											<ul class="main-nav__sub-2">
+												<li><a href="team-gallery-album.html">Single Album</a></li>
+											</ul>
+										</li>
+										<li><a href="player-overview.html">Player Pages</a>
+											<ul class="main-nav__sub-2">
+												<li><a href="player-overview.html">Overview</a></li>
+												<li><a href="player-stats.html">Full Statistics</a></li>
+												<li><a href="player-bio.html">Biography</a></li>
+												<li><a href="player-news.html">Related News</a></li>
+												<li><a href="player-gallery.html">Gallery</a></li>
+											</ul>
+										</li>
+										<li><a href="staff-single.html">Staff Member</a></li>--}}
+									</ul>
 									{{--<div class="main-nav__megamenu clearfix">
 										<ul class="col-lg-2 col-md-3 col-12 main-nav__ul">
 											<li class="main-nav__title">Features</li>
@@ -346,15 +367,9 @@
 								</li>
 								<li class=""><a href="#">Takmičenja</a>
 									<ul class="main-nav__sub">
-										<li><a href="team-overview.html">Overview</a></li>
-										<li><a href="team-roster-2.html">Roster</a>
-											<ul class="main-nav__sub-2">
-												<li><a href="team-roster-1.html">Roster - 1</a></li>
-												<li><a href="team-roster-2.html">Roster - 2</a></li>
-												<li><a href="team-roster-3.html">Roster - 3 &nbsp; <span class="label label-danger">New</span></a></li>
-											</ul>
-										</li>
-										<li><a href="team-standings.html">Standings</a></li>
+										<li><a href="team-overview.html">Prva B crnogorska liga</a></li>
+										<li><a href="team-roster-2.html">Juniorska liga</a></li>
+										{{--<li><a href="team-standings.html">Standings</a></li>
 										<li><a href="team-last-results.html">Latest Results</a></li>
 										<li><a href="team-schedule.html">Schedule</a></li>
 										<li><a href="team-gallery.html">Gallery</a>
@@ -371,26 +386,18 @@
 												<li><a href="player-gallery.html">Gallery</a></li>
 											</ul>
 										</li>
-										<li><a href="staff-single.html">Staff Member</a></li>
+										<li><a href="staff-single.html">Staff Member</a></li>--}}
 									</ul>
 								</li>
 								<li class=""><a href="#">Galerija</a>
 									<ul class="main-nav__sub">
-										<li class=""><a href="blog-1.html">News - version 1</a></li>
-										<li class=""><a href="blog-2.html">News - version 2</a></li>
-										<li class=""><a href="blog-3.html">News - version 3</a></li>
-										<li class=""><a href="blog-4.html">News - version 4</a></li>
-										<li><a href="#">Post</a>
-											<ul class="main-nav__sub-2">
-												<li><a href="blog-post-1.html">Single Post - version 1</a></li>
-												<li><a href="blog-post-2.html">Single Post - version 2</a></li>
-												<li><a href="blog-post-3.html">Single Post - version 3</a></li>
-											</ul>
-										</li>
+										<li class=""><a href="blog-3.html">Tim</a></li>
+										<li class=""><a href="blog-1.html">Foto Galerija</a></li>
+										<li class=""><a href="blog-2.html">Video Galerija</a></li>
 									</ul>
 								</li>
 								<li class=""><a href="shop-grid.html">Kontakt</a>
-									<ul class="main-nav__sub">
+									{{--<ul class="main-nav__sub">
 										<li class=""><a href="shop-grid.html">Shop - Grid</a></li>
 										<li class=""><a href="shop-list.html">Shop - List</a></li>
 										<li class=""><a href="shop-fullwidth.html">Shop - Full Width</a></li>
@@ -400,7 +407,7 @@
 										<li class=""><a href="shop-wishlist.html">Wishlist</a></li>
 										<li class=""><a href="shop-login.html">Login</a></li>
 										<li class=""><a href="shop-account.html">Account</a></li>
-									</ul>
+									</ul>--}}
 								</li>
 							</ul>
 		
