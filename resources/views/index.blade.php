@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="sr">
 <head>
 
 	<!-- Basic Page Needs
@@ -437,6 +437,7 @@
 					</div>
 				</div>
 			</div>
+
 			<!-- Header Primary / End -->
 		
 		</header>
@@ -494,23 +495,23 @@
 										</div>
 									</div>
 									<footer class="posts__footer card__footer">
-										<div class="post-author">
-											<figure class="post-author__avatar">
-												<img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
-											</figure>
-											<div class="post-author__info">
-												<h4 class="post-author__name">Jessica Hoops</h4>
-											</div>
-										</div>
-										<ul class="post__meta meta">
-											<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
-											<li class="meta__item meta__item--comments"><a href="#">18</a></li>
-										</ul>
-									</footer>
-								</li>
-							</ul>
+						<div class="post-author">
+							<figure class="post-author__avatar">
+								<img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
+							</figure>
+							<div class="post-author__info">
+								<h4 class="post-author__name">Jessica Hoops</h4>
+							</div>
 						</div>
-					</aside>
+						<ul class="post__meta meta">
+							<li class="meta__item meta__item--likes"><a href="#"><i class="meta-like meta-like--active icon-heart"></i> 530</a></li>
+							<li class="meta__item meta__item--comments"><a href="#">18</a></li>
+						</ul>
+					</footer>
+					</li>
+					</ul>
+				</div>
+		</aside>
 					<!-- Widget: Posts / End -->
 		
 					<!-- Widget: Tag Cloud -->
@@ -557,10 +558,11 @@
 
 		<!-- Hero Unit
 		================================================== -->
+		<!-- Hero Unit
+		================================================== -->
 		<div class="hero-unit">
-			{{--
 			<div class="container hero-unit__container">
-				<div class="hero-unit__content hero-unit__content--left-center">
+				{{--<div class="hero-unit__content hero-unit__content--left-center">
 					<span class="hero-unit__decor">
 						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
 					</span>
@@ -568,13 +570,14 @@
 					<h1 class="hero-unit__title">The <span class="text-primary">Alchemists</span></h1>
 					<div class="hero-unit__desc">Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore .</div>
 					<a href="#" class="btn btn-inverse btn-sm btn-outline btn-icon-right btn-condensed hero-unit__btn">Read More <i class="fa fa-plus text-primary"></i></a>
-				</div>
-				--}}
-				{{--<figure class="hero-unit__img">--}}
-					{{--<img src="assets/images/samples/header_player.png" alt="Hero Unit Image">--}}
-				{{--</figure>--}}
+				</div>--}}
+
+				{{--<figure class="hero-unit__img">
+					<img src="assets/images/samples/header_player.png" alt="Hero Unit Image">
+				</figure>--}}
 			</div>
 		</div>
+
 
 		<!-- Header Featured News
 		================================================== -->
