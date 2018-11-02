@@ -371,7 +371,7 @@
                             <a href="https://www.instagram.com/k.k.allstars02/?hl=sr" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa fa-instagram"></i></a>
                         </li>
                         <li class="social-links__item">
-                            <a href="#" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa fa-youtube-play"></i></a>
+                            <a href="https://www.youtube.com/channel/UCmIhgkzIXbw3OvwvRRPZacg?view_as=subscriber" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa fa-youtube-play"></i></a>
                         </li>
 
                     </ul>
