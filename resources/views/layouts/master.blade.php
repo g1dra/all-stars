@@ -7,10 +7,16 @@
                     @include('layouts.nav')
                     @include('layouts.pushy')
                     @include('layouts.hero')
-                    @include('layouts.content')
-                    @include('layouts.sidebar')
+                        <div class="site-content">
+                            <div class="container">
+                                <div class="row">
+                                    @yield('content')
+                                    @include('layouts.sidebar')
+                                </div>
+                            </div>
+                        </div>
                     @include('layouts.footer')
             </div>
-        @include('layouts.footer-scripts')
+            @include('layouts.footer-scripts')
         </body>
 </html>

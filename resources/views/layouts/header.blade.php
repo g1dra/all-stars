@@ -2,7 +2,7 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Alchemists Basketball Club &amp; Sports News HTML Template - Home</title>
+    <title>All-stars.me</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Sports Club, League and News HTML Template">

@@ -1,11 +1,11 @@
 <!-- Header Mobile -->
 <div class="header-mobile clearfix" id="header-mobile">
     <div class="header-mobile__logo">
-        <a href="index.html"><img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
+        <a href="index.html"><img src="assets/images/logo_no_bg.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
     </div>
     <div class="header-mobile__inner">
         <a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>
-        <span class="header-mobile__search-icon" id="header-mobile__search-icon"></span>
+        {{--<span class="header-mobile__search-icon" id="header-mobile__search-icon"></span>--}}
     </div>
 </div>
 
@@ -180,7 +180,7 @@
             <div class="header__primary-inner">
                 <!-- Header Logo -->
                 <div class="header-logo">
-                    <a href="/"><img src="assets/images/logo_no_bg.png" alt="Alchemists" srcset="assets/images/logo@2x.png 2x" class="header-logo__img"></a>
+                    <a href="/"><img src="assets/images/logo_no_bg.png" alt="All stars" srcset="assets/images/logo_no_bg.png" class="header-logo__img"></a>
                 </div>
                 <!-- Header Logo / End -->
 
@@ -189,15 +189,15 @@
                     <ul class="main-nav__list">
                         <li class="active"><a href="/">Početna</a>
                             <ul class="main-nav__sub">
-                                <li class="active"><a href="#"> Vijesti</a></li>
-                                <li class=""><a href="#"> Aktuelno</a></li>
+                                <li class="active"><a href="/"> Vijesti</a></li>
+                                <li class=""><a href="/"> Aktuelno</a></li>
                             </ul>
                         </li>
                         <li class=""><a href="#">Klub</a>
                             <ul class="main-nav__sub">
-                                <li><a href="team-overview.html">Uprava</a></li>
-                                <li><a href="team-overview.html">Istorija</a></li>
-                                <li><a href="team-roster-2.html">Roster</a></li>
+                                <li><a href="{{ route('staff') }}">Uprava</a></li>
+                                <li><a href="{{ route('history') }}">Istorija</a></li>
+                                <li><a href="{{ route('team') }}">Roster</a></li>
                                 <li><a href="team-standings.html">Mladje katergorije</a></li>
                                 {{--<li><a href="team-last-results.html">Latest Results</a></li>
                                 <li><a href="team-schedule.html">Schedule</a></li>
