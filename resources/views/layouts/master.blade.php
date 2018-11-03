@@ -6,7 +6,12 @@
                 <div class="site-overlay"></div>
                     @include('layouts.nav')
                     @include('layouts.pushy')
-                    @include('layouts.hero')
+                    @if(Route::current()->getName() != 'home')
+                        @include('layouts.heading')
+                    @endif
+                    @if(Route::current()->getName() == 'home')
+                        @include('layouts.hero')
+                    @endif
                         <div class="site-content">
                             <div class="container">
                                 <div class="row">

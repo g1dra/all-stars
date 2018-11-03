@@ -10,7 +10,7 @@
 
                             <!-- Footer Logo -->
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
+                                <a href="/"><img src="assets/images/logo_no_bg.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
                             </div>
                             <!-- Footer Logo / End -->
 
@@ -20,37 +20,37 @@
                         <div class="footer-col-inner">
                             <!-- Widget: Contact Info -->
                             <div class="widget widget--footer widget-contact-info">
-                                <h4 class="widget__title">Contact Info</h4>
+                                <h4 class="widget__title">Kontakt info </h4>
                                 <div class="widget__content">
                                     <div class="widget-contact-info__desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                        {{--<p>Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>--}}
                                     </div>
                                     <div class="widget-contact-info__body info-block">
                                         <div class="info-block__item">
                                             <svg role="img" class="df-icon df-icon--basketball">
                                                 <use xlink:href="assets/images/icons-basket.svg#basketball"/>
                                             </svg>
-                                            <h6 class="info-block__heading">Contact Us</h6>
-                                            <a class="info-block__link" href="mailto:tryouts@alchemists.com">tryouts@alchemists.com</a>
+                                            <h6 class="info-block__heading">Kontakt</h6>
+                                            <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                                         </div>
                                         <div class="info-block__item">
                                             <svg role="img" class="df-icon df-icon--jersey">
                                                 <use xlink:href="assets/images/icons-basket.svg#jersey"/>
                                             </svg>
-                                            <h6 class="info-block__heading">Join Our Team!</h6>
-                                            <a class="info-block__link" href="mailto:info@alchemists.com">info@alchemists.com</a>
+                                            <h6 class="info-block__heading">Prikljucite se timu!</h6>
+                                            <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                                         </div>
                                         <div class="info-block__item info-block__item--nopadding">
                                             <ul class="social-links">
 
                                                 <li class="social-links__item">
-                                                    <a href="#" class="social-links__link"><i class="fa fa-facebook"></i> Facebook</a>
+                                                    <a href="https://www.facebook.com/Kosarkaski-klub-All-Stars-321895358175219/" class="social-links__link"><i class="fa fa-facebook"></i> Facebook</a>
                                                 </li>
                                                 <li class="social-links__item">
-                                                    <a href="#" class="social-links__link"><i class="fa fa-twitter"></i> Twitter</a>
+                                                    <a href="https://www.instagram.com/k.k.allstars02/?hl=sr" class="social-links__link"><i class="fa fa-instagram"></i> Instagram</a>
                                                 </li>
                                                 <li class="social-links__item">
-                                                    <a href="#" class="social-links__link"><i class="fa fa-google-plus"></i> Google+</a>
+                                                    <a href="https://www.youtube.com/channel/UCmIhgkzIXbw3OvwvRRPZacg?view_as=subscriber" class="social-links__link"><i class="fa fa-youtube-play"></i> Youtube</a>
                                                 </li>
 
                                             </ul>
@@ -126,12 +126,12 @@
                     <div class="col-md-10 offset-md-1">
                         <ul class="footer-nav">
 
-                            <li class="footer-nav__item"><a href="index.html">Home</a></li>
+                            <li class="footer-nav__item"><a href="/">Početna</a></li>
                             <li class="footer-nav__item"><a href="features-shortcodes.html">Features</a></li>
                             <li class="footer-nav__item"><a href="team-standings.html">Statistics</a></li>
                             <li class="footer-nav__item"><a href="team-overview.html">The Team</a></li>
                             <li class="footer-nav__item"><a href="blog-3.html">News</a></li>
-                            <li class="footer-nav__item"><a href="shop-grid.html">Shop</a></li>
+
 
                         </ul>
                     </div>

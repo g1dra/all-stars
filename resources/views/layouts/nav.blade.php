@@ -27,12 +27,9 @@
                         <li><a href="#">GBP</a></li>
                     </ul>
                 </li>--}}
-                <li class="nav-account__item"><a href="#">Language: <span class="highlight">EN</span></a>
+                <li class="nav-account__item"><a href="#">Language: <span class="highlight">ME</span></a>
                     <ul class="main-nav__sub">
                         <li><a href="#">English</a></li>
-                        <li><a href="#">Spanish</a></li>
-                        <li><a href="#">French</a></li>
-                        <li><a href="#">German</a></li>
                     </ul>
                 </li>
                 {{----}}<li class="nav-account__item nav-account__item--logout"><a href="#">Logout</a></li>
@@ -61,15 +58,15 @@
                     <svg role="img" class="df-icon df-icon--jersey">
                         <use xlink:href="assets/images/icons-basket.svg#jersey"/>
                     </svg>
-                    <h6 class="info-block__heading">Join Our Team!</h6>
-                    <a class="info-block__link" href="mailto:tryouts@alchemists.com">tryouts@alchemists.com</a>
+                    <h6 class="info-block__heading">Priključi se!</h6>
+                    <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                 </li>
                 <li class="info-block__item info-block__item--contact-secondary">
                     <svg role="img" class="df-icon df-icon--basketball">
                         <use xlink:href="assets/images/icons-basket.svg#basketball"/>
                     </svg>
-                    <h6 class="info-block__heading">Contact Us</h6>
-                    <a class="info-block__link" href="mailto:info@alchemists.com">info@alchemists.com</a>
+                    <h6 class="info-block__heading">Kontakt</h6>
+                    <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                 </li>
                 <!-- Header Search Form -->
             {{--<li class="info-block__item info-block__item--shopping-cart">

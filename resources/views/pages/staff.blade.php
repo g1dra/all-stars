@@ -1,10 +1,15 @@
 @extends('layouts.master')
 @section('content')
-    <div class="spacer"></div>
-    <h2>H2 Heading - Headers</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation de laboris nisi ut aliquip ex ea com modo
-        consequat. Duis aute irure dolor in erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
+    <div class="content col-md-8">
+        <div class="spacer"></div>
+        <h2>Uprava</h2>
+        <p>
+            Kosarkaski klub ALL-STARS je nastao 2002 godine. Klub je osnovao i obavljao trenerski posao Srdjan Mandić
+            koji je tada okupio kadetsku generaciju koja je izvedena do zavrsne godine juniora.Zbog nedostatka finansija
+            2008 godine klub prestaje sa radom sve do septembra 2014 godine kada klub preuzima Pavicevic Danilo i krece
+            iznova sa radom sa mladjim kategorijama u Oš Njegos u Spuzu. Klub je otisao korak naprijed i od sezone
+            2018/2019 pored mladjih kategorija takmiciti i u seniorskoj Prvoj B ligi a utakmice ce se odigravati u
+            danilovgradskoj sali.
+        </p>
+    </div>
 @endsection
