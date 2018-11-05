@@ -20,7 +20,7 @@
                         <!-- 1st Team -->
                         <div class="match-preview__team match-preview__team--first">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/samples/logo-alchemists--sm.png" alt="">
+                                <img src="assets/images/logo_no_bg.png" alt="All stars">
                             </figure>
                             <h5 class="match-preview__team-name">All-stars</h5>
                             {{--<div class="match-preview__team-info">Elric Bros School</div>--}}
@@ -38,7 +38,7 @@
                         <!-- 2nd Team -->
                         <div class="match-preview__team match-preview__team--second">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/samples/logo-l-clovers--sm.png" alt="">
+                                <img src="assets/images/clubs/rudar150x150.png" alt="">
                             </figure>
                             <h5 class="match-preview__team-name">Clovers</h5>
                             {{--<div class="match-preview__team-info">ST Paddy's Institute</div>--}}
