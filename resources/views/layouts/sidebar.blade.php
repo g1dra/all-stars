@@ -20,7 +20,7 @@
                         <!-- 1st Team -->
                         <div class="match-preview__team match-preview__team--first">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/logo_no_bg.png" alt="All stars">
+                                <img src="assets/images/clubs/all-stars150x150.png" alt="All stars">
                             </figure>
                             <h5 class="match-preview__team-name">All-stars</h5>
                             {{--<div class="match-preview__team-info">Elric Bros School</div>--}}
