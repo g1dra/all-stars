@@ -19603,6 +19603,10 @@ td.team-leader__avg {
   background-color: #9d54aa;
 }
 
+.btn-social-counter--youtube {
+  background-color: #ff0000;
+}
+
 .btn-social-counter--instagram .btn-social-counter__icon {
   background-color: #88439c;
 }

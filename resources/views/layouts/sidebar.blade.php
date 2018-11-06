@@ -20,9 +20,9 @@
                         <!-- 1st Team -->
                         <div class="match-preview__team match-preview__team--first">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/clubs/all-stars150x150.png" alt="All stars">
+                                <img src="assets/images/clubs/teodo150x150.png" alt="Teodo">
                             </figure>
-                            <h5 class="match-preview__team-name">All-stars</h5>
+                            <h5 class="match-preview__team-name">Teodo</h5>
                             {{--<div class="match-preview__team-info">Elric Bros School</div>--}}
                         </div>
                         <!-- 1st Team / End -->
@@ -38,9 +38,9 @@
                         <!-- 2nd Team -->
                         <div class="match-preview__team match-preview__team--second">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/clubs/rudar150x150.png" alt="">
+                                <img src="assets/images/clubs/all-stars150x150.png" alt="All Stars">
                             </figure>
-                            <h5 class="match-preview__team-name">Rudar</h5>
+                            <h5 class="match-preview__team-name">All Stars</h5>
                             {{--<div class="match-preview__team-info">ST Paddy's Institute</div>--}}
                         </div>
                         <!-- 2nd Team / End -->
@@ -203,15 +203,15 @@
             <span class="btn-social-counter__count"><span class="btn-social-counter__count-num"></span> Followers</span>
             <span class="btn-social-counter__add-icon"></span>
         </a>
-       {{-- <a href="#" class="btn-social-counter btn-social-counter--rss" target="_blank">
+        <a href="https://www.youtube.com/channel/UCmIhgkzIXbw3OvwvRRPZacg?view_as=subscriber" class="btn-social-counter btn-social-counter btn-social-counter--youtube" target="_blank">
             <div class="btn-social-counter__icon">
-                <i class="fa fa-rss"></i>
+                <i class="fa fa-youtube-play"></i>
             </div>
-            <h6 class="btn-social-counter__title">Subscribe to Our RSS</h6>
+            <h6 class="btn-social-counter__title">Subscribe to Our Youtube</h6>
             <span class="btn-social-counter__count"><span
                         class="btn-social-counter__count-num">840</span> Subscribers</span>
             <span class="btn-social-counter__add-icon"></span>
-        </a>--}}
+        </a>
     </aside>
     <!-- Widget: Social Buttons / End -->
 
@@ -398,20 +398,20 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th>Alchemists</th>
+                                <th>All Stars</th>
                                 <td>30</td>
                                 <td>31</td>
                                 <td>22</td>
                                 <td>24</td>
-                                <td>107</td>
+                                <td>67</td>
                             </tr>
                             <tr>
-                                <th>Sharks</th>
+                                <th>Stršljen</th>
                                 <td>22</td>
                                 <td>34</td>
                                 <td>20</td>
                                 <td>26</td>
-                                <td>102</td>
+                                <td>46</td>
                             </tr>
                             </tbody>
                         </table>
@@ -423,12 +423,12 @@
             <!-- Game Statistics -->
             <div class="widget-game-result__section">
                 <header class="widget-game-result__subheader card__subheader card__subheader--sm card__subheader--nomargins">
-                    <h5 class="widget-game-result__subtitle">Game Statistics</h5>
+                    <h5 class="widget-game-result__subtitle">Statistika</h5>
                 </header>
                 <div class="widget-game-result__section-inner">
                     <!-- Progress: Assists -->
                     <div class="progress-double-wrapper">
-                        <h6 class="progress-title">Assists</h6>
+                        <h6 class="progress-title">Asistencija</h6>
                         <div class="progress-inner-holder">
                             <div class="progress__digit progress__digit--left">22</div>
                             <div class="progress__double">
@@ -449,7 +449,7 @@
 
                     <!-- Progress: Rebounds -->
                     <div class="progress-double-wrapper">
-                        <h6 class="progress-title">Rebounds</h6>
+                        <h6 class="progress-title">Skokovi</h6>
                         <div class="progress-inner-holder">
                             <div class="progress__digit progress__digit--left progress__digit--highlight">35</div>
                             <div class="progress__double">
@@ -470,7 +470,7 @@
 
                     <!-- Progress: Steals -->
                     <div class="progress-double-wrapper">
-                        <h6 class="progress-title">Steals</h6>
+                        <h6 class="progress-title">Ukradena lopte</h6>
                         <div class="progress-inner-holder">
                             <div class="progress__digit progress__digit--left">14</div>
                             <div class="progress__double">
