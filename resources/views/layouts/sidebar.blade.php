@@ -13,7 +13,7 @@
                 <section class="match-preview__body">
                     <header class="match-preview__header">
                         <h3 class="match-preview__title">Prva B crnogorska liga</h3>
-                        <time class="match-preview__date" datetime="06-11-2018">06-11-2018</time>
+                        <time class="match-preview__date" datetime="10-11-2018">10-11-2018</time>
                     </header>
                     <div class="match-preview__content">
 
