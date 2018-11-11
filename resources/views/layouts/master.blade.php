@@ -7,17 +7,16 @@
                     @include('layouts.nav')
                     @include('layouts.pushy')
                     @if(Route::current()->getName() != 'home')
+                        {{--Breadcrumbs--}}
                         @include('layouts.heading')
                     @endif
                     @if(Route::current()->getName() == 'home')
                         @include('layouts.hero')
                     @endif
+                        @yield('team-pages-filter')
                         <div class="site-content">
                             <div class="container">
-                                <div class="row">
                                     @yield('content')
-                                    @include('layouts.sidebar')
-                                </div>
                             </div>
                         </div>
                     @include('layouts.footer')

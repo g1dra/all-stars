@@ -1196,11 +1196,10 @@
 													<div class="posts__cat">
 														<span class="label posts__cat-label">The Team</span>
 													</div>
-													<h6 class="posts__title"><a href="#">The team is taking a summer vacation on Woody Valley</a></h6>
-													<time datetime="2016-08-17" class="posts__date">August 17th, 2018</time>
+													<h6 class="posts__title"><a href="#">Drugo kolo</a></h6>
+													<time datetime="2016-08-17" class="posts__date">17-11-2018</time>
 													<div class="posts__excerpt">
-														Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-													</div>
+														U derbiju drugom kolu Prve B crnogorske lige košarkaši All Starsa savladali su u Danilovgradu ekipu Stršljena rezultatom 67:46													</div>
 												</div>
 												<footer class="posts__footer card__footer">
 													<div class="post-author">

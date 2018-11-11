@@ -22,16 +22,18 @@ Route::get('/history',function (){
     return view('pages.history');
 })->name('history');
 
-
-
-
-
-
 Route::get('/team', function () {
-    return view('team-roster');
+    return view('pages.team');
 })->name('team');
 
+
+
+
 Route::get('/team2', function () {
+    return view('team-roster');
+})->name('team2');
+
+Route::get('/team3', function () {
     return view('team-roster-1');
 });
 

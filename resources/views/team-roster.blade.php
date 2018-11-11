@@ -35,7 +35,7 @@
 	<link href="assets/vendor/slick/slick.css" rel="stylesheet">
 
 	<!-- Template CSS-->
-	<link href="assets/css/style-basketball.css" rel="stylesheet">
+	<link href="assets/css/style-basketball-dark.css" rel="stylesheet">
 
 	<!-- Custom CSS-->
 	<link href="assets/css/custom.css" rel="stylesheet">
