@@ -184,7 +184,7 @@
                 <!-- Main Navigation -->
                 <nav class="main-nav clearfix">
                     <ul class="main-nav__list">
-                        <li class="active"><a href="/">Početna</a>
+                        <li class="active"><a href="/">Novosti</a>
                             <ul class="main-nav__sub">
                                 <li class="active"><a href="/"> Vijesti</a></li>
                                 <li class=""><a href="/"> Aktuelno</a></li>
@@ -314,7 +314,7 @@
                         </li>
                         <li class=""><a href="#">Takmičenja</a>
                             <ul class="main-nav__sub">
-                                <li><a href="team-overview.html">Prva B crnogorska liga</a></li>
+                                <li><a href="team-overview.html">I B MCKL</a></li>
                                 <li><a href="team-roster-2.html">Juniorska liga</a></li>
                                 {{--<li><a href="team-standings.html">Standings</a></li>
                                 <li><a href="team-last-results.html">Latest Results</a></li>
@@ -336,11 +336,11 @@
                                 <li><a href="staff-single.html">Staff Member</a></li>--}}
                             </ul>
                         </li>
-                        <li class=""><a href="#">Galerija</a>
+                        <li class=""><a href="{{ route('team2') }}">Galerija</a>
                             <ul class="main-nav__sub">
-                                <li class=""><a href="blog-3.html">Tim</a></li>
-                                <li class=""><a href="blog-1.html">Foto Galerija</a></li>
-                                <li class=""><a href="blog-2.html">Video Galerija</a></li>
+                                <li class=""><a href="{{ route('team2') }}">Tim</a></li>
+                                <li class=""><a href="{{ route('gallery') }}">Foto Galerija</a></li>
+                                <li class=""><a href="{{ route('video-gallery') }}">Video Galerija</a></li>
                             </ul>
                         </li>
                         <li class=""><a href="shop-grid.html">Kontakt</a>

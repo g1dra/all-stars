@@ -591,7 +591,7 @@
 					<div class="team-roster__item col-6 col-sm-4">
 						<div class="team-roster__holder">
 							<figure class="team-roster__img">
-								<img src="assets/images/samples/aleksa_kojovic.jpg" alt="" style="max-width:100%;max-height:100%;">
+								<img src="assets/images/players/aleksa_kojovic.jpg" alt="" style="max-width:100%;max-height:100%;">
 							</figure>
 							<div class="team-roster__content">
 								<div class="team-roster__content-inner">
@@ -688,7 +688,6 @@
 							<a href="player-overview.html" class="btn-fab"></a>
 						</div>
 					</div>
-		
 					<div class="team-roster__item col-6 col-sm-4">
 						<div class="team-roster__holder">
 							<figure class="team-roster__img">
@@ -709,11 +708,11 @@
 							<a href="staff-single.html" class="btn-fab"></a>
 						</div>
 					</div>
-		
+
 				</div>
 				<!-- Team Roster: Grid / End -->
-		
-		
+
+
 				<div class="row">
 					<!-- Team Roster: Table -->
 					<div class="col-md-8">
