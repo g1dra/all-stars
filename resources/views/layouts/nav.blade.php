@@ -343,7 +343,7 @@
                                 <li class=""><a href="{{ route('video-gallery') }}">Video Galerija</a></li>
                             </ul>
                         </li>
-                        <li class=""><a href="shop-grid.html">Kontakt</a>
+                        <li class=""><a href="{{ route('contact') }}">Kontakt</a>
                             {{--<ul class="main-nav__sub">
                                 <li class=""><a href="shop-grid.html">Shop - Grid</a></li>
                                 <li class=""><a href="shop-list.html">Shop - List</a></li>
