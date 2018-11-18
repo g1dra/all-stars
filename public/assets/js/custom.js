@@ -23,9 +23,9 @@ $(document).ready(function () {
                         videoId = item.snippet.resourceId.videoId;
                         console.log(videoTitle, videoPublished, videoId);
                         videoElement = `<div class="gallery__item col-6 col-sm-4">
-                                                <a href="team-gallery-album.html" class="gallery__item-inner card">
+                                                <a href="https://www.youtube.com/watch?v=${videoId}" class="gallery__item-inner card">
                                                     <figure class="gallery__thumb">
-                                                       <iframe width="100%" height="345" allowFullScreen="true"
+                                                       <iframe width="100%" height="345" allowFullScreen="true" loop=1
                                                             src="https://www.youtube.com/embed/${videoId}">
                                                         </iframe>
                                                     </figure>
@@ -44,32 +44,4 @@ $(document).ready(function () {
                     })
                 });
         });
-    /*
-    * video id
-    * video date
-    * video title
-    * */
-
-
 });
-
-/*
-*
-* <div class="gallery__item col-6 col-sm-4">
-                    <a href="team-gallery-album.html" class="gallery__item-inner card">
-                        <figure class="gallery__thumb">
-                            <img src="assets/images/samples/post-img4.jpg" alt="">
-                            <span class="btn-fab gallery__btn-fab"></span>
-                        </figure>
-                        <div class="gallery__content card__content">
-								<span class="gallery__icon">
-									<span class="icon-camera"></span>
-								</span>
-                            <div class="gallery__details">
-                                <h4 class="gallery__name">Photoshoot for 2017</h4>
-                                <div class="gallery__date">December 17th, 2016</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                */
