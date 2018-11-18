@@ -18,16 +18,7 @@ class PlayerController extends Controller
         return view('pages.team-slider',compact('players'));
     }
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index2()
-    {
-        $players = Player::all();
-        return view('pages.team-grid',compact('players'));
-    }
+
 
     /**
      * Show the form for creating a new resource.

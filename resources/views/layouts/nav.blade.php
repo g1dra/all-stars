@@ -336,9 +336,9 @@
                                 <li><a href="staff-single.html">Staff Member</a></li>--}}
                             </ul>
                         </li>
-                        <li class=""><a href="{{ route('team2') }}">Galerija</a>
+                        <li class=""><a href="{{ route('teamGrid') }}">Galerija</a>
                             <ul class="main-nav__sub">
-                                <li class=""><a href="{{ route('team2') }}">Tim</a></li>
+                                <li class=""><a href="{{ route('teamGrid') }}">Tim</a></li>
                                 <li class=""><a href="{{ route('gallery') }}">Foto Galerija</a></li>
                                 <li class=""><a href="{{ route('video-gallery') }}">Video Galerija</a></li>
                             </ul>

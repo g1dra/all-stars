@@ -30,7 +30,7 @@ Route::get('/history',function (){
 
 Route::resource('team', 'PlayerController')->name('index','team');
 
-Route::get('team2','PlayerController@index2')->name('team2');
+Route::get('/grid','PageController@teamGrid')->name('teamGrid');
 
 
 

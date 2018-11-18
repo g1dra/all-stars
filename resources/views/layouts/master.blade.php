@@ -22,5 +22,6 @@
                     @include('layouts.footer')
             </div>
             @include('layouts.footer-scripts')
+            @yield('script-extras')
         </body>
 </html>

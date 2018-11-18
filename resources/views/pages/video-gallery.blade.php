@@ -3,8 +3,8 @@
 
 
             <!-- Gallery -->
-            <div class="gallery row">
-                <div class="gallery__item col-6 col-sm-4">
+            <div class="gallery row" id="row">
+                {{--<div class="gallery__item col-6 col-sm-4">
                     <a href="team-gallery-album.html" class="gallery__item-inner card">
                         <figure class="gallery__thumb">
                             <img src="assets/images/samples/post-img4.jpg" alt="">
@@ -156,7 +156,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div>--}}
             </div>
             <!-- Gallery / End -->
 
@@ -172,4 +172,7 @@
                 </ul>
             </nav>
             <!-- Team Pagination / End -->
+@endsection
+@section('script-extras')
+    <script src="assets/js/custom.js"></script>
 @endsection

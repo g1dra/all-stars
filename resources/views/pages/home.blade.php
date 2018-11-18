@@ -172,7 +172,7 @@
             <!-- Lates News -->
             <div class="card card--clean">
                 <header class="card__header card__header--has-btn">
-                    <h4>Novoisti</h4>
+                    <h4>Novosti</h4>
                     {{--<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Posts</a>--}}
                 </header>
                 <div class="card__content">
@@ -245,8 +245,8 @@
                                         </div>
                                         <ul class="post__meta meta">
                                             <li class="meta__item meta__item--views">2369</li>
-                                            {{-- <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
-                                            <li class="meta__item meta__item--comments"><a href="#">18</a></li>--}}
+                                             <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+                                            <li class="meta__item meta__item--comments"><a href="#">18</a></li>
                                         </ul>
                                     </footer>
                                 </div>
