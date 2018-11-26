@@ -28,7 +28,7 @@ Route::get('/grid','PageController@teamGrid')->name('teamGrid');
 
 Route::get('/set-form','PageController@setForm')->name('setForm');
 
-
+Route::post('/schedule-match', 'MatchController@scheduleMatch')->name('scheduleMatch');
 
 
 

@@ -14,3 +14,14 @@ Description:  You can add your custom CSS here and it will overwrite template st
 select option {
     background: #25272b;
 }
+select {
+    color: #C6D5E1 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .btn {
+        width: 100%;
+    }
+}
+

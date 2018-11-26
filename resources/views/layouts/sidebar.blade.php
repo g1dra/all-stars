@@ -53,7 +53,7 @@
                 <section class="match-preview__countdown countdown">
                     <h4 class="countdown__title">Game Countdown</h4>
                     <div class="countdown__content">
-                        <div class="countdown-counter" data-date="July 12, 2018 08:00:00"></div>
+                        <div class="countdown-counter" data-date="Nov 30, 2018 08:00:00"></div>
                     </div>
                 </section>
             </div>
