@@ -22,15 +22,11 @@ Route::get('/history',function (){
     return view('pages.history');
 })->name('history');
 
-//Route::get('/team', function () {
-//    return view('pages.team');
-//})->name('team');
-
-
-
 Route::resource('team', 'PlayerController')->name('index','team');
 
 Route::get('/grid','PageController@teamGrid')->name('teamGrid');
+
+Route::get('/set-form','PageController@setForm')->name('setForm');
 
 
 

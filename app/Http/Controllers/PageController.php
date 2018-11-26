@@ -16,4 +16,9 @@ class PageController extends Controller
         $players = Player::all();
         return view('pages.team-grid',compact('players'));
     }
+
+    public function setForm()
+    {
+        return view('pages.set-form');
+    }
 }
