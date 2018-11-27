@@ -306,5 +306,5 @@
 
 @endsection
 @section('script-extras')
-
+``
 @endsection

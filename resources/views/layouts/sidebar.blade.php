@@ -12,17 +12,17 @@
             <div class="match-preview">
                 <section class="match-preview__body">
                     <header class="match-preview__header">
-                        <h3 class="match-preview__title">Prva B crnogorska liga</h3>
-                        <time class="match-preview__date" datetime="10-11-2018">10-11-2018</time>
+                        <h3 class="match-preview__title">{{ $lastMatch->league }}</h3>
+                        <time class="match-preview__date" datetime="{{ $lastMatch->date }}">{{ $lastMatch->date }}</time>
                     </header>
                     <div class="match-preview__content">
 
                         <!-- 1st Team -->
                         <div class="match-preview__team match-preview__team--first">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/clubs/teodo150x150.png" alt="Teodo">
+                                <img src="{{  $homeTeam->img }}" alt="{{  $homeTeam->name }}">
                             </figure>
-                            <h5 class="match-preview__team-name">Teodo</h5>
+                            <h5 class="match-preview__team-name">{{  $homeTeam->name }}</h5>
                             {{--<div class="match-preview__team-info">Elric Bros School</div>--}}
                         </div>
                         <!-- 1st Team / End -->
@@ -30,17 +30,17 @@
                         <div class="match-preview__vs">
                             <div class="match-preview__conj">VS</div>
                             <div class="match-preview__match-info">
-                                <time class="match-preview__match-time" datetime="2018-08-07 08:00">12:00</time>
-                                <div class="match-preview__match-place">Podgorica</div>
+                                <time class="match-preview__match-time" datetime="{{ $lastMatch->date . $lastMatch->time }}">{{ substr($lastMatch->time, 0, -3) }} </time>
+                                <div class="match-preview__match-place">{{ $lastMatch->location }}</div>
                             </div>
                         </div>
 
                         <!-- 2nd Team -->
                         <div class="match-preview__team match-preview__team--second">
                             <figure class="match-preview__team-logo">
-                                <img src="assets/images/clubs/all-stars150x150.png" alt="All Stars">
+                                <img src="{{ $guestTeam->img }}" alt="{{ $guestTeam->name }}">
                             </figure>
-                            <h5 class="match-preview__team-name">All Stars</h5>
+                            <h5 class="match-preview__team-name">{{ $guestTeam->name }}</h5>
                             {{--<div class="match-preview__team-info">ST Paddy's Institute</div>--}}
                         </div>
                         <!-- 2nd Team / End -->
@@ -53,7 +53,7 @@
                 <section class="match-preview__countdown countdown">
                     <h4 class="countdown__title">Game Countdown</h4>
                     <div class="countdown__content">
-                        <div class="countdown-counter" data-date="Nov 30, 2018 08:00:00"></div>
+                        <div class="countdown-counter" data-date="{{ $lastMatch->date }}"></div>
                     </div>
                 </section>
             </div>
@@ -86,7 +86,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/all-stars150x150.png" alt="All Stars">
+                                    <img src="assets/images/clubs/all-stars.png" alt="All Stars">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">All Stars</h6>
@@ -102,7 +102,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/teodo150x150.png" alt="Teodo">
+                                    <img src="assets/images/clubs/teodo.png" alt="Teodo">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Teodo</h6>
@@ -118,7 +118,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/rudar150x150.png" alt="Rudar">
+                                    <img src="assets/images/clubs/rudar.png" alt="Rudar">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Rudar</h6>
@@ -134,7 +134,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/kotor150x150.png" alt="Kotor">
+                                    <img src="assets/images/clubs/kotor.png" alt="Kotor">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Kotor</h6>
@@ -150,7 +150,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/lim150x150.png" alt="Lim">
+                                    <img src="assets/images/clubs/lim.png" alt="Lim">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Lim</h6>
@@ -166,7 +166,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/strsljen150x150.png" alt="Stršljen">
+                                    <img src="assets/images/clubs/strsljen.png" alt="Stršljen">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Stršljen</h6>
@@ -345,7 +345,7 @@
                         <div class="widget-game-result__team widget-game-result__team--first">
                             <figure class="widget-game-result__team-logo">
                                 <a href="#"><img
-                                            src="assets/images/clubs/all-stars150x150.png"
+                                            src="assets/images/clubs/all-stars.png"
                                             alt=""></a>
                             </figure>
                             <div class="widget-game-result__team-info">
@@ -367,7 +367,7 @@
                         <!-- 2nd Team -->
                         <div class="widget-game-result__team widget-game-result__team--second">
                             <figure class="widget-game-result__team-logo">
-                                <a href="#"><img src="assets/images/clubs/strsljen150x150.png"
+                                <a href="#"><img src="assets/images/clubs/strsljen.png"
                                                  alt=""></a>
                             </figure>
                             <div class="widget-game-result__team-info">

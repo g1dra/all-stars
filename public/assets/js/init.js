@@ -210,6 +210,8 @@
 
 			var countdown = $('.countdown-counter');
 			var count_time = countdown.data('date');
+			//console.log(countdown);
+			console.log(count_time);
 			countdown.countdown({
 				date: count_time,
 				render: function(data) {

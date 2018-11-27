@@ -16,8 +16,9 @@ class CreateClubsTable extends Migration
         Schema::create('clubs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->string('wins')->nullable();
-            $table->string('lost')->nullable();
+            $table->integer('wins')->nullable();
+            $table->integer('losses')->nullable();
+            $table->integer('points')->nullable();
             $table->string('league')->nullable();
             $table->string('img')->nullable();
             $table->timestamps();
