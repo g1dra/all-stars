@@ -26,7 +26,6 @@
                             {{--<div class="match-preview__team-info">Elric Bros School</div>--}}
                         </div>
                         <!-- 1st Team / End -->
-
                         <div class="match-preview__vs">
                             <div class="match-preview__conj">VS</div>
                             <div class="match-preview__match-info">
@@ -53,7 +52,7 @@
                 <section class="match-preview__countdown countdown">
                     <h4 class="countdown__title">Game Countdown</h4>
                     <div class="countdown__content">
-                        <div class="countdown-counter" data-date="{{ $lastMatch->date }}"></div>
+                        <div class="countdown-counter" data-date="{{ $lastMatch->date . ' ' . $lastMatch->time }}"></div>
                     </div>
                 </section>
             </div>
