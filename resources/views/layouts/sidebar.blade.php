@@ -65,8 +65,8 @@
     <!-- Widget: Standings -->
     <aside class="widget card widget--sidebar widget-standings">
         <div class="widget__title card__header card__header--has-btn">
-            <h4>Playoff Standings</h4>
-            <a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Stats</a>
+            <h4>Rezultati</h4>
+            <a href="#" class="btn btn-default btn-outline btn-xs card-header__button">Vidi rezultate</a>
         </div>
         <div class="widget__content card__content">
             <div class="table-responsive">
@@ -469,7 +469,7 @@
 
                     <!-- Progress: Steals -->
                     <div class="progress-double-wrapper">
-                        <h6 class="progress-title">Ukradena lopte</h6>
+                        <h6 class="progress-title">Ukradene lopte</h6>
                         <div class="progress-inner-holder">
                             <div class="progress__digit progress__digit--left">14</div>
                             <div class="progress__double">

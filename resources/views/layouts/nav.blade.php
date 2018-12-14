@@ -314,7 +314,7 @@
                         </li>
                         <li class=""><a href="#">Takmičenja</a>
                             <ul class="main-nav__sub">
-                                <li><a href="team-overview.html">I B MCKL</a></li>
+                                <li><a href="{{ route('mckl') }}">I B MCKL</a></li>
                                 <li><a href="team-roster-2.html">Juniorska liga</a></li>
                                 {{--<li><a href="team-standings.html">Standings</a></li>
                                 <li><a href="team-last-results.html">Latest Results</a></li>

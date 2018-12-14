@@ -25,10 +25,11 @@ Route::resource('team', 'PlayerController')->name('index','team');
 Route::get('/grid','PageController@teamGrid')->name('teamGrid');
 
 Route::get('/set-form','PageController@setForm')->name('setForm');
+Route::get('/mckl','PageController@mckl')->name('mckl');
 
 Route::post('/schedule-match', 'MatchController@scheduleMatch')->name('scheduleMatch');
 
-
+Route::get('set-result','PageController@setResult')->name('setResult');
 
 
 
