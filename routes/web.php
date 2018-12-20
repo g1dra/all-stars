@@ -24,12 +24,13 @@ Route::resource('team', 'PlayerController')->name('index','team');
 
 Route::get('/grid','PageController@teamGrid')->name('teamGrid');
 
-Route::get('/set-form','PageController@setForm')->name('setForm');
+Route::get('/set-countdown','PageController@setCountdown')->name('setCountdown');
+
 Route::get('/mckl','PageController@mckl')->name('mckl');
 
-Route::post('/schedule-match', 'MatchController@scheduleMatch')->name('scheduleMatch');
+Route::post('/set-countdown', 'MatchController@scheduleMatch')->name('set-countdown');
 
-Route::get('set-result','PageController@setResult')->name('setResult');
+Route::get('/set-result','PageController@setResult')->name('setResult');
 
 
 

@@ -2,7 +2,7 @@
 @section('content')
     <div class="row">
         <div class="content col-md-8">
-            <h1>Naredni meč</h1>
+            <h1>Rezultati meča</h1>
             <form id="schedule-form"method="POST" action="/schedule-match">
                 @csrf
                 <div class="row">
@@ -27,7 +27,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label" for="location">Mjesto</label>
-                            <input type="text" class="form-control" id="location" name="location" placeholder="Mjesto">
+                            <input type="text" class="form-control" id="location" name="location" placeholder="Mjesto" value="Podgorica">
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                         <div class="form-group">
                             <label class="control-label" for="home">Tim I</label>
                             <select name="home" id="select-home" class="form-control">
-                                <option value="" disabled selected>Izaberi domaći klub</option>
+                                <option value="" disabled selected>Izaberi domaći tim</option>
                                 @foreach($clubs as $club)
                                     <option value="{{$club->name}}">{{$club->name}}</option>
                                 @endforeach
@@ -47,7 +47,7 @@
                         <div class="form-group">
                             <label class="control-label" for="select-road">Tim II</label>
                             <select name="guest" id="select-guest" class="form-control">
-                                <option value="" disabled selected>Izaberi gostujući klub</option>
+                                <option value="" disabled selected>Izaberi gostujući tim</option>
                                 @foreach($clubs as $club)
                                     <option value="{{$club->name}}">{{$club->name}}</option>
                                 @endforeach

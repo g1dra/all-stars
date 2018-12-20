@@ -28,13 +28,13 @@ class PageController extends Controller
         return view('pages.team-grid',compact('players'));
     }
 
-    public function setForm()
+    public function setCountdown()
     {
         $lastMatch = DB::table('schedule')->get()->last();
         $clubs = DB::table('clubs')->get();
         $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
         $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
-        return view('pages.set-form',compact(['lastMatch','clubs','homeTeam','guestTeam']));
+        return view('pages.set-countdown',compact(['lastMatch','clubs','homeTeam','guestTeam']));
     }
 
     public function mckl()
