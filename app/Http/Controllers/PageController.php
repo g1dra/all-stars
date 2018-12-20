@@ -55,6 +55,12 @@ class PageController extends Controller
         return view('pages.set-result',compact('clubs'));
     }
 
+    public function setTable()
+    {
+        $clubs = DB::table('clubs')->get();
+        return view('pages.set-table',compact('clubs'));
+    }
+
 
 
 

@@ -27,10 +27,16 @@ Route::get('/grid','PageController@teamGrid')->name('teamGrid');
 Route::get('/set-countdown','PageController@setCountdown')->name('setCountdown');
 
 Route::get('/mckl','PageController@mckl')->name('mckl');
+Route::post('/set-countdown', 'MatchController@scheduleMatch')->name('storeCountdown');
 
-Route::post('/set-countdown', 'MatchController@scheduleMatch')->name('set-countdown');
 
 Route::get('/set-result','PageController@setResult')->name('setResult');
+Route::post('/set-result', 'MatchController@storeResult')->name('storeResult');
+
+Route::get('/set-table','PageController@setTable')->name('setTable');
+Route::post('/set-table', 'MatchController@storeTable')->name('storeTable');
+
+
 
 
 
