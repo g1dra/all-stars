@@ -9,7 +9,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label" for="select-league">Izaberi takmičenje</label>
-                            <select name="select-league" id="select-league" class="form-control">
+                            <select name="league" id="select-league" class="form-control">
                                 <option value="IMBCK">IMBCK</option>
                                 <option value="Juniorska">Juniorska</option>
                             </select>
@@ -18,7 +18,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label" for="location">Mjesto</label>
-                            <input type="text" class="form-control" id="location" name="location" placeholder="Mjesto">
+                            <input type="text" class="form-control" id="location" name="location" placeholder="Podgorica">
                         </div>
                     </div>
                 </div>
@@ -27,8 +27,8 @@
                         <div class="form-group">
                             <label class="control-label" for="home">Tim I</label>
                             <select name="select-home" id="select-league" class="form-control">
+                                <option value="" disabled selected>Izaberi domaći klub</option>
                                @foreach($clubs as $club)
-                                    <option value="" disabled selected>Izaberi domaći klub</option>
                                     <option value="{{$club->name}}">{{$club->name}}</option>
                                @endforeach
                             </select>
@@ -38,8 +38,8 @@
                         <div class="form-group">
                             <label class="control-label" for="away">Tim II</label>
                             <select name="select-road" id="select-league" class="form-control">
+                                <option value="" disabled selected>Izaberi gostujući klub</option>
                                 @foreach($clubs as $club)
-                                    <option value="" disabled selected>Izaberi gostujući klub</option>
                                     <option value="{{$club->name}}">{{$club->name}}</option>
                                 @endforeach
                             </select>
