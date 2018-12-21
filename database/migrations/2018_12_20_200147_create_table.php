@@ -16,9 +16,9 @@ class CreateTable extends Migration
         Schema::create('table', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->unsignedInteger('wins');
-            $table->unsignedInteger('losses');
-            $table->unsignedInteger('points');
+            $table->unsignedInteger('wins')->nullable();
+            $table->unsignedInteger('losses')->nullable();
+            $table->unsignedInteger('points')->nullable();
         });
     }
 

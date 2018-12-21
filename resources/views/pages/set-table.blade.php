@@ -20,13 +20,42 @@
                     </div>
                 @endforeach
                 <br>
-                <div class="row">
-
+                <div class="form-row">
                     <div class="col-md-3">
-                        <p><a href="javascript:{}" class="btn btn-primary-inverse btn-lg"
-                              onclick="document.getElementById('table-form').submit();">Submit</a></p>
+
+                    </div>
+                    <div class="col-md-3">
+                        <select name="round" id="select-round" class="form-control">
+                            @for ($i=1; $i < 13; $i++)
+                                <option value="{{$i}}"> Kolo {{$i}}. </option>
+                            @endfor
+                        </select>
+                    </div>
+                    <div class="col">
+                        <div class="col-md-3">
+                            <p><a href="javascript:{}" class="btn btn-primary-inverse btn-lg"
+                                  onclick="document.getElementById('table-form').submit();">Submit</a></p>
+                        </div>
                     </div>
                 </div>
+
+                {{--<div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="select-league">Izaberi takmičenje</label>
+                            <select name="league" id="select-league" class="form-control">
+                                <option value="IMBCK">IMBCK</option>
+                                <option value="Juniorska">Juniorska</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3">
+                            <p><a href="javascript:{}" class="btn btn-primary-inverse btn-lg"
+                                  onclick="document.getElementById('table-form').submit();">Submit</a></p>
+                        </div>
+                    </div>
+                </div>--}}
             </form>
         </div>
         <div id="sidebar" class="sidebar col-md-4">

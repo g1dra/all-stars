@@ -60,10 +60,16 @@ class MatchController extends Controller
     public function storeTable(Request $request)
     {
         $clubs = DB::table('clubs')->get();
-        DB::table('table')->insert([
-            ['wins' => 'taylor@example.com', 'votes' => 0],
-            ['email' => 'dayle@example.com', 'votes' => 0]
-        ]);
-        dd($request->all());
+        $array = array();
+        for ( $i=0; $i<count($clubs); $i++)
+        {
+            $array[]= ['name' => $clubs[$i]->name,
+                    'wins' => $request->wins[$i],
+                    'losses' => $request->losses[$i],
+                    'points' => $request->wins[$i] * 2 + $request->losses[$i],
+                    'round' => $request->round
+            ];
+        }
+        DB::table('table')->insert($array);
     }
 }
