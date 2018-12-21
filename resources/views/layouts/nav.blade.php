@@ -32,7 +32,7 @@
                         <li><a href="#">English</a></li>
                     </ul>
                 </li>
-                {{----}}<li class="nav-account__item nav-account__item--logout"><a href="#">Logout</a></li>
+                <li class="nav-account__item nav-account__item--logout"><a href="/login">Login</a></li>
             </ul>
             <!-- Account Navigation / End -->
 
