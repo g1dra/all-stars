@@ -1,7 +1,7 @@
 <!-- Header Mobile -->
 <div class="header-mobile clearfix" id="header-mobile">
     <div class="header-mobile__logo">
-        <a href="index.html"><img src="assets/images/logo_no_bg.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
+        <a href="index.html"><img src="/assets/images/logo_no_bg.png" srcset="/assets/images/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
     </div>
     <div class="header-mobile__inner">
         <a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>
@@ -27,12 +27,34 @@
                         <li><a href="#">GBP</a></li>
                     </ul>
                 </li>--}}
-                <li class="nav-account__item"><a href="#">Language: <span class="highlight">ME</span></a>
+                {{--<li class="nav-account__item"><a href="#">Language: <span class="highlight">ME</span></a>
                     <ul class="main-nav__sub">
-                        <li><a href="#">English</a></li>
+                        --}}{{--<li><a href="#">English</a></li>--}}{{--
                     </ul>
-                </li>
-                <li class="nav-account__item nav-account__item--logout"><a href="/login">Login</a></li>
+                </li>--}}
+                @guest
+                    <li class="nav-account__item nav-account__item--logout"><a href="{{ route('login') }}">Login</a></li>
+                @endguest
+                @auth
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                {{ __('Logout') }}
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                        </div>
+                    </li>
+                @endauth
+                {{--<li class="nav-account__item nav-account__item--logout"><a href="{{ route('login') }}">Login</a></li>--}}
             </ul>
             <!-- Account Navigation / End -->
 
@@ -56,14 +78,14 @@
             <ul class="info-block info-block--header">
                 <li class="info-block__item info-block__item--contact-primary">
                     <svg role="img" class="df-icon df-icon--jersey">
-                        <use xlink:href="assets/images/icons-basket.svg#jersey"/>
+                        <use xlink:href="/assets/images/icons-basket.svg#jersey"/>
                     </svg>
                     <h6 class="info-block__heading">Priključi se!</h6>
                     <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                 </li>
                 <li class="info-block__item info-block__item--contact-secondary">
                     <svg role="img" class="df-icon df-icon--basketball">
-                        <use xlink:href="assets/images/icons-basket.svg#basketball"/>
+                        <use xlink:href="/assets/images/icons-basket.svg#basketball"/>
                     </svg>
                     <h6 class="info-block__heading">Kontakt</h6>
                     <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
@@ -177,7 +199,7 @@
             <div class="header__primary-inner">
                 <!-- Header Logo -->
                 <div class="header-logo">
-                    <a href="/"><img src="assets/images/logo_no_bg.png" alt="All stars" srcset="assets/images/logo_no_bg.png" class="header-logo__img"></a>
+                    <a href="/"><img src="/assets/images/logo_no_bg.png" alt="All stars" srcset="/assets/images/logo_no_bg.png" class="header-logo__img"></a>
                 </div>
                 <!-- Header Logo / End -->
 

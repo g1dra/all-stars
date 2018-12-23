@@ -230,7 +230,7 @@
 					<div class="header__primary-inner">
 						<!-- Header Logo -->
 						<div class="header-logo">
-							<a href="/"><img src="assets/images/logo_no_bg.png" alt="Alchemists" srcset="assets/images/logo@2x.png 2x" class="header-logo__img"></a>
+							<a href="/"><img src="/assets/images/logo_no_bg.png" alt="Alchemists" srcset="assets/images/logo@2x.png 2x" class="header-logo__img"></a>
 						</div>
 						<!-- Header Logo / End -->
 		

@@ -11,9 +11,9 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="assets/images/basketball/favicons/favicon.ico">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/basketball/favicons/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/basketball/favicons/favicon-152.png">
+    <link rel="shortcut icon" href="/assets/images/basketball/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/basketball/favicons/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/basketball/favicons/favicon-152.png">
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -26,17 +26,17 @@
     <!-- CSS
     ================================================== -->
     <!-- Vendor CSS -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="assets/vendor/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-    <link href="assets/vendor/slick/slick.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/fonts/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="/assets/vendor/slick/slick.css" rel="stylesheet">
 
     <!-- Template CSS-->
-    <link href="assets/css/style-basketball-dark.css" rel="stylesheet">
+    <link href="/assets/css/style-basketball-dark.css" rel="stylesheet">
 
     <!-- Custom CSS-->
-    <link href="assets/css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="assets/css/wickedpicker.min.css">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    {{--<link rel="stylesheet" href="/code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">--}}
+    <link rel="stylesheet" href="/assets/css/wickedpicker.min.css">
 </head>

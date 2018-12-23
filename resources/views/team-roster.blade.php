@@ -918,10 +918,10 @@
 							</div>
 							<div class="widget__content card__content">
 								<div class="widget-player__team-logo">
-									<img src="assets/images/logo.png" alt="">
+									<img src="/assets/images/logo.png" alt="">
 								</div>
 								<figure class="widget-player__photo">
-									<img src="assets/images/samples/widget-featured-player.png" alt="">
+									<img src="/assets/images/samples/widget-featured-player.png" alt="">
 								</figure>
 								<header class="widget-player__header clearfix">
 									<div class="widget-player__number">38</div>
@@ -1327,16 +1327,16 @@
 	<!-- Javascript Files
 	================================================== -->
 	<!-- Core JS -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script>
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-	<script src="assets/js/core.js"></script>
+	<script src="/assets/vendor/jquery/jquery.min.js"></script>
+	<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+	<script src="/assets/js/core.js"></script>
 	
 	<!-- Vendor JS -->
-	<script src="assets/vendor/twitter/jquery.twitter.js"></script>
+	<script src="/assets/vendor/twitter/jquery.twitter.js"></script>
 	
 	<!-- Template JS -->
-	<script src="assets/js/init.js"></script>
-	<script src="assets/js/custom.js"></script>
+	<script src="/assets/js/init.js"></script>
+	<script src="/assets/js/custom.js"></script>
 
 </body>
 </html>

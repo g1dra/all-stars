@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('page-content')
-    <main id="page-content">
-        <form action="/posts" method="POST" enctype="multipart/form-data">
+@section('content')
+    <div class="row">
+        <form action="/posts" method="POST" enctype="multipart/form-data" id="post-form">
             @csrf
             <div class="container">
                 <h1 style="margin-top: 25px ">Create Post</h1>
@@ -15,14 +15,22 @@
                     <textarea id="article-ckeditor" rows=="5" class="form-control" placeholder="Insert Text" name="body"></textarea>
                 </div>
                 <div class="form-group">
-                    <input type="file" id="cover_image" name="cover_image">
+                    <input type="file"  class="form-control-file" id="cover_image" name="cover_image">
                 </div>
-                <button type="submit">Submit</button>
+                <div class="row">
+                    <div class="col-md-3">
+                        <p><a href="javascript:{}" class="btn btn-primary-inverse btn-lg"
+                              onclick="document.getElementById('post-form').submit();">Submit</a></p>
+                    </div>
+                </div>
             </div>
         </form>
-    </main>
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-    <script>
-        CKEDITOR.replace( 'article-ckeditor' );
-    </script>
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'article-ckeditor' );
+        </script>
+
+    </div>
+
+
 @endsection

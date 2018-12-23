@@ -10,7 +10,7 @@
 
                             <!-- Footer Logo -->
                             <div class="footer-logo">
-                                <a href="/"><img src="assets/images/logo_no_bg.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
+                                <a href="/"><img src="/assets/images/logo_no_bg.png" srcset="/assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
                             </div>
                             <!-- Footer Logo / End -->
 
@@ -28,14 +28,14 @@
                                     <div class="widget-contact-info__body info-block">
                                         <div class="info-block__item">
                                             <svg role="img" class="df-icon df-icon--basketball">
-                                                <use xlink:href="assets/images/icons-basket.svg#basketball"/>
+                                                <use xlink:href="/assets/images/icons-basket.svg#basketball"/>
                                             </svg>
                                             <h6 class="info-block__heading">Kontakt</h6>
                                             <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                                         </div>
                                         <div class="info-block__item">
                                             <svg role="img" class="df-icon df-icon--jersey">
-                                                <use xlink:href="assets/images/icons-basket.svg#jersey"/>
+                                                <use xlink:href="/assets/images/icons-basket.svg#jersey"/>
                                             </svg>
                                             <h6 class="info-block__heading">Prikljucite se timu!</h6>
                                             <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>

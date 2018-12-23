@@ -3,8 +3,11 @@
 
     <!-- Widget: Match Announcement -->
     <aside class="widget widget--sidebar card widget-preview">
-        <div class="widget__title card__header">
-            <h4 style="text-align: center">Naredni meč</h4>
+        <div class="widget__title card__header" style="text-align: center">
+            <h4 style="display: inline">Naredni meč</h4>
+            @auth
+                <a href="{{ route('setCountdown') }}" class="btn btn-default btn-outline btn-xs card-header__button"> Podesi </a>
+            @endauth
         </div>
         <div class="widget__content card__content">
 
@@ -64,9 +67,11 @@
 
     <!-- Widget: Standings -->
     <aside class="widget card widget--sidebar widget-standings">
-        <div class="widget__title card__header card__header--has-btn">
-            <h4>Rezultati</h4>
-            <a href="#" class="btn btn-default btn-outline btn-xs card-header__button">Vidi rezultate</a>
+        <div class="widget__title card__header card__header--has-btn" style="text-align:center">
+            <h4 >Rezultati</h4>
+            @auth
+                <a href="{{ route('setTable') }}" class="btn btn-default btn-outline btn-xs card-header__button">Podesi</a>
+            @endauth
         </div>
         <div class="widget__content card__content">
             <div class="table-responsive">
@@ -85,7 +90,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/all-stars.png" alt="All Stars">
+                                    <img src="/assets/images/clubs/all-stars.png" alt="All Stars">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">All Stars</h6>
@@ -101,7 +106,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/teodo.png" alt="Teodo">
+                                    <img src="/assets/images/clubs/teodo.png" alt="Teodo">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Teodo</h6>
@@ -117,7 +122,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/rudar.png" alt="Rudar">
+                                    <img src="/assets/images/clubs/rudar.png" alt="Rudar">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Rudar</h6>
@@ -133,7 +138,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/kotor.png" alt="Kotor">
+                                    <img src="/assets/images/clubs/kotor.png" alt="Kotor">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Kotor</h6>
@@ -149,7 +154,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/lim.png" alt="Lim">
+                                    <img src="/assets/images/clubs/lim.png" alt="Lim">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Lim</h6>
@@ -165,7 +170,7 @@
                         <td>
                             <div class="team-meta">
                                 <figure class="team-meta__logo">
-                                    <img src="assets/images/clubs/strsljen.png" alt="Stršljen">
+                                    <img src="/assets/images/clubs/strsljen.png" alt="Stršljen">
                                 </figure>
                                 <div class="team-meta__info">
                                     <h6 class="team-meta__name">Stršljen</h6>
@@ -324,8 +329,11 @@
 
     <!-- Widget: Game Result -->
     <aside class="widget card widget--sidebar widget-game-result">
-        <div class="widget__title card__header card__header--has-btn">
+        <div class="widget__title card__header card__header--has-btn" style="text-align: center">
             <h4>Poslednji rezultati</h4>
+            @auth
+                <a href="{{route('setResult')}}" class="btn btn-default btn-outline btn-xs card-header__button">Podesi</a>
+            @endauth
             {{--<button class="btn btn-default btn-outline btn-xs card-header__button js-switch-toggle"><span--}}
                         {{--class="js-switch-txt" data-text-expand="Expand Stats" data-text-shrink="Shrink Stats">Expand Stats</span>--}}
             {{--</button>--}}
@@ -343,9 +351,7 @@
                         <!-- 1st Team -->
                         <div class="widget-game-result__team widget-game-result__team--first">
                             <figure class="widget-game-result__team-logo">
-                                <a href="#"><img
-                                            src="assets/images/clubs/all-stars.png"
-                                            alt=""></a>
+                                <a href="#"><img src="/assets/images/clubs/all-stars.png" alt=""></a>
                             </figure>
                             <div class="widget-game-result__team-info">
                                 <h5 class="widget-game-result__team-name">All stars</h5>
@@ -366,7 +372,7 @@
                         <!-- 2nd Team -->
                         <div class="widget-game-result__team widget-game-result__team--second">
                             <figure class="widget-game-result__team-logo">
-                                <a href="#"><img src="assets/images/clubs/strsljen.png"
+                                <a href="#"><img src="/assets/images/clubs/strsljen.png"
                                                  alt=""></a>
                             </figure>
                             <div class="widget-game-result__team-info">
@@ -502,7 +508,7 @@
                         <div class="player-details">
                             <div class="player-details__info">
                                 <figure class="player-details__photo">
-                                    <a href="#"><img src="assets/images/samples/stats_player_02.jpg" alt=""></a>
+                                    <a href="#"><img src="/assets/images/samples/stats_player_02.jpg" alt=""></a>
                                 </figure>
                                 <div class="player-details__info-holder">
                                     <h5 class="player-details__name"><a href="#">Mark Stevens</a></h5>

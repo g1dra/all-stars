@@ -2,7 +2,7 @@
     <div class="pushy-panel__inner">
         <header class="pushy-panel__header">
             <div class="pushy-panel__logo">
-                <a href="index.html"><img src="assets/images/logo.png" srcset="assets/images/logo@2x.png 2x" alt="Alchemists"></a>
+                <a href="index.html"><img src="/assets/images/logo.png" srcset="/assets/images/logo@2x.png 2x" alt="Alchemists"></a>
             </div>
         </header>
         <div class="pushy-panel__content">
@@ -25,7 +25,7 @@
                             <footer class="posts__footer card__footer">
                                 <div class="post-author">
                                     <figure class="post-author__avatar">
-                                        <img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
+                                        <img src="/assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
                                     </figure>
                                     <div class="post-author__info">
                                         <h4 class="post-author__name">James Spiegel</h4>
@@ -51,7 +51,7 @@
                             <footer class="posts__footer card__footer">
                                 <div class="post-author">
                                     <figure class="post-author__avatar">
-                                        <img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
+                                        <img src="/assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
                                     </figure>
                                     <div class="post-author__info">
                                         <h4 class="post-author__name">Jessica Hoops</h4>
@@ -98,7 +98,7 @@
             <aside class="widget widget--side-panel widget-banner">
                 <div class="widget__content">
                     <figure class="widget-banner__img">
-                        <a href="#"><img src="assets/images/samples/banner.jpg" alt="Banner"></a>
+                        <a href="#"><img src="/assets/images/samples/banner.jpg" alt="Banner"></a>
                     </figure>
                 </div>
             </aside>

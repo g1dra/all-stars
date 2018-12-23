@@ -130,10 +130,10 @@
 				$top_nav_li.has('ul').addClass('has-children').prepend('<span class="main-nav__toggle"></span>');
 
 				// Clone Top Bar menu to Main Menu
-				if ( $top_nav.exists() ) {
-					var children = $top_nav.children().clone();
-					$nav_list.append(children);
-				}
+				// if ( $top_nav.exists() ) {
+				// 	var children = $top_nav.children().clone();
+				// 	$nav_list.append(children);
+				// }
 
 				// Clone Header Logo to Mobile Menu
 				var $logo_mobile = $('.header-mobile__logo').clone();
@@ -210,8 +210,6 @@
 
 			var countdown = $('.countdown-counter');
 			var count_time = countdown.data('date');
-			//console.log(countdown);
-			console.log(count_time);
 			countdown.countdown({
 				date: count_time,
 				render: function(data) {
@@ -1471,7 +1469,7 @@
 				var insta_feed = new Instafeed({
 					get: 'user',
 					target: 'instagram-feed',
-					userId: '2251271172',
+					userId: '6173932768',
 					accessToken: '',
 					limit: 6,
 					template: '<li class="widget-instagram__item"><a href="{{link}}" id="{{id}}" class="widget-instagram__link-wrapper" target="_blank"><span class="widget-instagram__plus-sign"><img src="{{image}}" alt="" class="widget-instagram__img" /></span></a></li>'

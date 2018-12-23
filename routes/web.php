@@ -37,7 +37,7 @@ Route::post('/set-result', 'MatchController@storeResult')->name('storeResult')->
 Route::get('/set-table','PageController@setTable')->name('setTable')->middleware('auth');
 Route::post('/set-table', 'MatchController@storeTable')->name('storeTable')->middleware('auth');
 
-Route::resource('posts', 'PostController');
+Route::resource('/posts', 'PostController');
 
 
 
@@ -61,3 +61,7 @@ Route::get('/contact', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/test',function (){
+    return view('test');
+});

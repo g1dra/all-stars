@@ -198,22 +198,22 @@
                                             Teodo rezultatom 63:58.
                                         </div>
                                     </div>
-                                    <footer class="posts__footer card__footer">
-                                        <div class="post-author">
-                                            <figure class="post-author__avatar">
-                                                <img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">
-                                            </figure>
-                                            <div class="post-author__info">
-                                                <h4 class="post-author__name">Darko V.</h4>
-                                            </div>
-                                        </div>
-                                        <ul class="post__meta meta">
-                                            <li class="meta__item meta__item--views">2369</li>
-                                            {{--<li class="meta__item meta__item--likes"><a href="#"><i
-                                                            class="meta-like icon-heart"></i> 530</a></li>
-                                            <li class="meta__item meta__item--comments"><a href="#">18</a></li>--}}
-                                        </ul>
-                                    </footer>
+                                    {{--<footer class="posts__footer card__footer">--}}
+                                        {{--<div class="post-author">--}}
+                                            {{--<figure class="post-author__avatar">--}}
+                                                {{--<img src="assets/images/samples/avatar-1.jpg" alt="Post Author Avatar">--}}
+                                            {{--</figure>--}}
+                                            {{--<div class="post-author__info">--}}
+                                                {{--<h4 class="post-author__name">Darko V.</h4>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<ul class="post__meta meta">--}}
+                                            {{--<li class="meta__item meta__item--views">2369</li>--}}
+                                            {{--<li class="meta__item meta__item--likes"><a href="#"><i--}}
+                                                            {{--class="meta-like icon-heart"></i> 530</a></li>--}}
+                                            {{--<li class="meta__item meta__item--comments"><a href="#">18</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</footer>--}}
                                 </div>
                             </div>
                         </div>
@@ -235,22 +235,22 @@
                                             su u Danilovgradu ekipu Stršljena rezultatom 67:46.
                                         </div>
                                     </div>
-                                    <footer class="posts__footer card__footer">
-                                        <div class="post-author">
-                                            <figure class="post-author__avatar">
-                                                <img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
-                                            </figure>
-                                            <div class="post-author__info">
-                                                <h4 class="post-author__name">Darko.V</h4>
-                                            </div>
-                                        </div>
-                                        <ul class="post__meta meta">
-                                            <li class="meta__item meta__item--views">2369</li>
-                                            <li class="meta__item meta__item--likes"><a href="#"><i
-                                                            class="meta-like icon-heart"></i> 530</a></li>
-                                            <li class="meta__item meta__item--comments"><a href="#">18</a></li>
-                                        </ul>
-                                    </footer>
+                                    {{--<footer class="posts__footer card__footer">--}}
+                                        {{--<div class="post-author">--}}
+                                            {{--<figure class="post-author__avatar">--}}
+                                                {{--<img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">--}}
+                                            {{--</figure>--}}
+                                            {{--<div class="post-author__info">--}}
+                                                {{--<h4 class="post-author__name">Darko.V</h4>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<ul class="post__meta meta">--}}
+                                            {{--<li class="meta__item meta__item--views">2369</li>--}}
+                                            {{--<li class="meta__item meta__item--likes"><a href="#"><i--}}
+                                                            {{--class="meta-like icon-heart"></i> 530</a></li>--}}
+                                            {{--<li class="meta__item meta__item--comments"><a href="#">18</a></li>--}}
+                                        {{--</ul>--}}
+                                    {{--</footer>--}}
                                 </div>
                             </div>
                         </div>
@@ -272,19 +272,19 @@
                                             Upoznajte tim
                                         </div>
                                     </div>
-                                    <footer class="posts__footer card__footer">
-                                        <div class="post-author">
-                                            <figure class="post-author__avatar">
-                                                <img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
-                                            </figure>
-                                            <div class="post-author__info">
-                                                <h4 class="post-author__name">Darko.V</h4>
-                                            </div>
-                                        </div>
-                                        <ul class="post__meta meta">
-                                            <li class="meta__item meta__item--views">2369</li>
-                                        </ul>
-                                    </footer>
+                                    {{--<footer class="posts__footer card__footer">--}}
+                                        {{--<div class="post-author">--}}
+                                            {{--<figure class="post-author__avatar">--}}
+                                                {{--<img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">--}}
+                                            {{--</figure>--}}
+                                            {{--<div class="post-author__info">--}}
+                                                {{--<h4 class="post-author__name">Darko.V</h4>--}}
+                                            {{--</div>--}}
+                                        {{--</div>--}}
+                                        {{--<ul class="post__meta meta">--}}
+                                            {{--<li class="meta__item meta__item--views">2369</li>--}}
+                                        {{--</ul>--}}
+                                    {{--</footer>--}}
                                 </div>
                             </div>
                         </div>

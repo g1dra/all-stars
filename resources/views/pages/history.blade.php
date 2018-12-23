@@ -16,7 +16,7 @@
                         <div class="post-list__item">
                             <div class="posts__item posts__item--card posts__item--category-1 card card--block">
                                 <figure class="posts__thumb">
-                                    <a href="#"><img src="assets/images/samples/post-img9-m.jpg" alt=""></a>
+                                    <a href="#"><img src="/assets/images/samples/post-img9-m.jpg" alt=""></a>
                                     <a href="#" class="posts__cta"></a>
                                 </figure>
                                 <div class="posts__inner">
@@ -43,7 +43,7 @@
                                     <footer class="posts__footer card__footer">
                                         <div class="post-author">
                                             <figure class="post-author__avatar">
-                                                <img src="assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
+                                                <img src="/assets/images/samples/avatar-2.jpg" alt="Post Author Avatar">
                                             </figure>
                                             <div class="post-author__info">
                                                 <h4 class="post-author__name">Darko Vučetić</h4>
