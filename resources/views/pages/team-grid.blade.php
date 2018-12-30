@@ -22,7 +22,7 @@
         <div class="team-roster__item col-6 col-sm-4">
             <div class="team-roster__holder">
                 <figure class="team-roster__img">
-                    <img src="assets/images/players2/{{$player->img}}" alt="">
+                    <img src="assets/images/players/{{$player->img}}" alt="">
                 </figure>
                 <div class="team-roster__content">
                     <div class="team-roster__content-inner">

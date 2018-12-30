@@ -19,7 +19,7 @@ class CreatePlayersTable extends Migration
             $table->date('date_of_birth')->nullable();
             $table->integer('height')->nullable();
             $table->string('position')->nullable();
-            $table->integer('number')->nullable();
+            $table->string('number')->nullable();
             $table->string('img')->nullable();
             $table->timestamps();
         });

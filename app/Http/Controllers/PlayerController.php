@@ -15,7 +15,9 @@ class PlayerController extends Controller
     public function index()
     {
         $players = Player::all();
-        return view('pages.team-slider',compact('players'));
+        $pairs = $players->chunk(2);
+        //dd($pairs);
+        return view('pages.team-slider',compact('pairs'));
     }
 
 

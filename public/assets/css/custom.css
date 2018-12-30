@@ -23,5 +23,9 @@ select {
     .btn {
         width: 100%;
     }
+
+    .for-mobile{
+        margin: auto;
+    }
 }
 

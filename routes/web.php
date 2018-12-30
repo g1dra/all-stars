@@ -11,14 +11,15 @@
 |
 */
 Route::get('/','PageController@home')->name('home');
+Route::get('/history','PageController@history')->name('history');
+
+
+
 
 Route::get('/staff',function (){
     return view('pages.staff');
 })->name('staff');
 
-Route::get('/history',function (){
-    return view('pages.history');
-})->name('history');
 
 Route::resource('team', 'PlayerController')->name('index','team');
 
