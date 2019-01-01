@@ -11,15 +11,7 @@ class PageController extends Controller
 {
     public function home()
     {
-        $lastMatch = DB::table('schedule')->get()->last();
-        $clubs = DB::table('clubs')->get();
-        $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
-        $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
-        $date = date_create($lastMatch->date);
-        $date = date_format($date, 'F d, Y');
-        $lastMatch->date = $date;
-        //dd($lastMatch);
-        return view('pages.home',compact(['lastMatch','clubs','homeTeam','guestTeam']));
+        return view('pages.home');
     }
 
     public function teamGrid()
@@ -30,48 +22,27 @@ class PageController extends Controller
 
     public function setCountdown()
     {
-        $lastMatch = DB::table('schedule')->get()->last();
-        $clubs = DB::table('clubs')->get();
-        $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
-        $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
-        return view('pages.set-countdown',compact(['lastMatch','clubs','homeTeam','guestTeam']));
+        return view('pages.set-countdown');
     }
 
     public function mckl()
     {
-        $lastMatch = DB::table('schedule')->get()->last();
-        $clubs = DB::table('clubs')->get();
-        $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
-        $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
-        $date = date_create($lastMatch->date);
-        $date = date_format($date, 'F d, Y');
-        $lastMatch->date = $date;
-        return view('pages.mckl',compact(['lastMatch','clubs','homeTeam','guestTeam']));
+        return view('pages.mckl');
     }
 
     public function setResult()
     {
-        $clubs = DB::table('clubs')->get();
-        return view('pages.set-result',compact('clubs'));
+        return view('pages.set-result');
     }
 
     public function setTable()
     {
-        $clubs = DB::table('clubs')->get();
-        return view('pages.set-table',compact('clubs'));
+        return view('pages.set-table');
     }
 
     public function history()
     {
-        $lastMatch = DB::table('schedule')->get()->last();
-        $clubs = DB::table('clubs')->get();
-        $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
-        $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
-        $date = date_create($lastMatch->date);
-        $date = date_format($date, 'F d, Y');
-        $lastMatch->date = $date;
-        //dd($lastMatch);
-        return view('pages.history',compact(['lastMatch','clubs','homeTeam','guestTeam']));
+        return view('pages.history');
     }
 
 

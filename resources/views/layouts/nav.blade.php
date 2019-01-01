@@ -90,104 +90,6 @@
                     <h6 class="info-block__heading">Kontakt</h6>
                     <a class="info-block__link" href="mailto:k.k.allstars02@gmail.com">k.k.allstars02@gmail.com</a>
                 </li>
-                <!-- Header Search Form -->
-            {{--<li class="info-block__item info-block__item--shopping-cart">
-                <a href="#" class="info-block__link-wrapper">
-                    <div class="df-icon-stack df-icon-stack--bag">
-                        <svg role="img" class="df-icon df-icon--bag">
-                            <use xlink:href="assets/images/icons-basket.svg#bag"/>
-                        </svg>
-                        <svg role="img" class="df-icon df-icon--bag-handle">
-                            <use xlink:href="assets/images/icons-basket.svg#bag-handle"/>
-                        </svg>
-                    </div>
-                    <h6 class="info-block__heading">Your Bag (8 items)</h6>
-                    <span class="info-block__cart-sum">$256,30</span>
-                </a>
-
-                <!-- Dropdown Shopping Cart -->
-                <ul class="header-cart">
-
-                    <li class="header-cart__item">
-                        <figure class="header-cart__product-thumb">
-                            <a href="shop-product.html">
-                                <img src="assets/images/samples/cart-sm-1.jpg" alt="">
-                            </a>
-                        </figure>
-                        <div class="header-cart__inner">
-                            <span class="header-cart__product-cat">Sneakers</span>
-                            <h5 class="header-cart__product-name"><a href="shop-product.html">Sundown Sneaker</a></h5>
-                            <div class="header-cart__product-ratings">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star empty"></i>
-                            </div>
-                            <div class="header-cart__product-sum">
-                                <span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">2</span>
-                            </div>
-                            <div class="fa fa-times header-cart__close"></div>
-                        </div>
-                    </li>
-                    <li class="header-cart__item">
-                        <figure class="header-cart__product-thumb">
-                            <a href="shop-product.html">
-                                <img src="assets/images/samples/cart-sm-2.jpg" alt="">
-                            </a>
-                        </figure>
-                        <div class="header-cart__inner">
-                            <span class="header-cart__product-cat">Sneakers</span>
-                            <h5 class="header-cart__product-name"><a href="shop-product.html">Atlantik Sneaker</a></h5>
-                            <div class="header-cart__product-ratings">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <div class="header-cart__product-sum">
-                                <span class="header-cart__product-price">$30.00</span> x <span class="header-cart__product-count">4</span>
-                            </div>
-                            <div class="fa fa-times header-cart__close"></div>
-                        </div>
-                    </li>
-                    <li class="header-cart__item">
-                        <figure class="header-cart__product-thumb">
-                            <a href="shop-product.html">
-                                <img src="assets/images/samples/cart-sm-3.jpg" alt="">
-                            </a>
-                        </figure>
-                        <div class="header-cart__inner">
-                            <span class="header-cart__product-cat">Sneakers</span>
-                            <h5 class="header-cart__product-name"><a href="shop-product.html">Aquarium Sneaker</a></h5>
-                            <div class="header-cart__product-ratings">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star empty"></i>
-                                <i class="fa fa-star empty"></i>
-                            </div>
-                            <div class="header-cart__product-sum">
-                                <span class="header-cart__product-price">$28.00</span> x <span class="header-cart__product-count">1</span>
-                            </div>
-                            <div class="fa fa-times header-cart__close"></div>
-                        </div>
-                    </li>
-
-                    <li class="header-cart__item header-cart__item--subtotal">
-                        <span class="header-cart__subtotal">Cart Subtotal</span>
-                        <span class="header-cart__subtotal-sum">$282.00</span>
-                    </li>
-                    <li class="header-cart__item header-cart__item--action">
-                        <a href="shop-cart.html" class="btn btn-default btn-block">Go to Cart</a>
-                        <a href="shop-checkout.html" class="btn btn-primary-inverse btn-block">Checkout</a>
-                    </li>
-                </ul>
-                <!-- Dropdown Shopping Cart / End -->
-
-            </li>--}}
-            <!-- Header Search Form / End -->
             </ul>
         </div>
     </div>
@@ -206,18 +108,24 @@
                 <!-- Main Navigation -->
                 <nav class="main-nav clearfix">
                     <ul class="main-nav__list">
-                        <li class="active"><a href="/">Novosti</a>
-                            <ul class="main-nav__sub">
-                                <li class="active"><a href="/"> Vijesti</a></li>
+                        <li class="{{ Request::is("/") ? 'active': ''}}">
+                            <a href="/">Novosti</a>
+                           {{-- <ul class="main-nav__sub">
+                                <li class=""><a href="/"> Vijesti</a></li>
                                 <li class=""><a href="/"> Aktuelno</a></li>
-                            </ul>
+                            </ul>--}}
                         </li>
                         <li class=""><a href="#">Klub</a>
                             <ul class="main-nav__sub">
-                                <li><a href="{{ route('staff') }}">Uprava</a></li>
-                                <li><a href="{{ route('history') }}">Istorija</a></li>
-                                <li><a href="{{ route('team') }}">Roster</a></li>
-                                <li><a href="team-standings.html">Mladje katergorije</a></li>
+                                <li class="{{ Request::is("/staff") ? 'active': ''}}">
+                                    <a href="{{ route('staff') }}">Uprava</a>
+                                </li>
+                                <li class="{{ Request::is("/history") ? 'active': ''}}">
+                                    <a href="{{ route('history') }}">Istorija</a>
+                                </li>
+                                <li class="{{ Request::is("/team") ? 'active': ''}}">
+                                    <a href="{{ route('team') }}">Roster</a></li>
+                                <li><a href="#">Mladje katergorije</a></li>
                                 {{--<li><a href="team-last-results.html">Latest Results</a></li>
                                 <li><a href="team-schedule.html">Schedule</a></li>
                                 <li><a href="team-gallery.html">Gallery</a>
@@ -336,8 +244,10 @@
                         </li>
                         <li class=""><a href="#">Takmičenja</a>
                             <ul class="main-nav__sub">
-                                <li><a href="{{ route('mckl') }}">I B MCKL</a></li>
-                                <li><a href="team-roster-2.html">Juniorska liga</a></li>
+                                <li class="{{ Request::is("/mckl") ? 'active': ''}}">
+                                    <a href="{{ route('mckl') }}">I B MCKL</a>
+                                </li>
+                                <li><a href="#">Juniorska liga</a></li>
                                 {{--<li><a href="team-standings.html">Standings</a></li>
                                 <li><a href="team-last-results.html">Latest Results</a></li>
                                 <li><a href="team-schedule.html">Schedule</a></li>
@@ -358,14 +268,16 @@
                                 <li><a href="staff-single.html">Staff Member</a></li>--}}
                             </ul>
                         </li>
-                        <li class=""><a href="{{ route('teamGrid') }}">Galerija</a>
+                        <li class="{{ Request::is("/grid") ? 'active': ''}}">
+                            <a href="{{ route('teamGrid') }}">Galerija</a>
                             <ul class="main-nav__sub">
                                 <li class=""><a href="{{ route('teamGrid') }}">Tim</a></li>
-                                <li class=""><a href="{{ route('gallery') }}">Foto Galerija</a></li>
+                                <li class=""><a href="{{ route('album.index') }}">Foto Galerija</a></li>
                                 <li class=""><a href="{{ route('video-gallery') }}">Video Galerija</a></li>
                             </ul>
                         </li>
-                        <li class=""><a href="{{ route('contact') }}">Kontakt</a>
+                        <li class="{{ Request::is("contact") ? 'active': ''}}">
+                            <a href="{{ route('contact') }}">Kontakt</a>
                             {{--<ul class="main-nav__sub">
                                 <li class=""><a href="shop-grid.html">Shop - Grid</a></li>
                                 <li class=""><a href="shop-list.html">Shop - List</a></li>

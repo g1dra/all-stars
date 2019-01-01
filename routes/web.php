@@ -39,7 +39,7 @@ Route::get('/set-table','PageController@setTable')->name('setTable')->middleware
 Route::post('/set-table', 'MatchController@storeTable')->name('storeTable')->middleware('auth');
 
 Route::resource('/posts', 'PostController');
-
+Route::resource('/album','AlbumController');
 
 
 
