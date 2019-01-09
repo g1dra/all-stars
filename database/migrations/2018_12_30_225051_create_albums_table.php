@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTable extends Migration
+class CreateAlbumsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateTable extends Migration
      */
     public function up()
     {
-        Schema::create('table', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('albums', function (Blueprint $table) {
+            $table->increments('id')->unsigned();
             $table->string('name');
-            $table->unsignedInteger('wins')->nullable();
-            $table->unsignedInteger('losses')->nullable();
-            $table->unsignedInteger('points')->nullable();
-            $table->unsignedInteger("round")->nullable();
+            $table->text('description');
+            $table->string('cover_image');
+            $table->timestamps();
         });
     }
 
@@ -30,6 +29,6 @@ class CreateTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('albums');
     }
 }

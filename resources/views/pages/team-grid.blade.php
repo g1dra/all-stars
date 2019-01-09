@@ -1,20 +1,4 @@
 @extends('layouts.master')
-@section('team-pages-filter')
-    <nav class="content-filter">
-        <div class="container">
-            <a href="#" class="content-filter__toggle"></a>
-            <ul class="content-filter__list">
-                <li class="content-filter__item "><a href="team-overview.html" class="content-filter__link"><small>The Team</small>Overview</a></li>
-                <li class="content-filter__item content-filter__item--active"><a href="team-roster-1.html" class="content-filter__link"><small>The Team</small>Roster</a></li>
-                <li class="content-filter__item "><a href="team-standings.html" class="content-filter__link"><small>The Team</small>Standings</a></li>
-                <li class="content-filter__item "><a href="team-last-results.html" class="content-filter__link"><small>The Team</small>Latest Results</a></li>
-                <li class="content-filter__item "><a href="team-schedule.html" class="content-filter__link"><small>The Team</small>Schedule</a></li>
-                <li class="content-filter__item "><a href="team-gallery.html" class="content-filter__link"><small>The Team</small>Gallery</a></li>
-            </ul>
-        </div>
-    </nav>
-@endsection
-
 @section('content')
     <!-- Team Roster: Grid -->
     <div class="team-roster team-roster--grid row">

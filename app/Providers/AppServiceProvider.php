@@ -16,6 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Schema::defaultStringLength(191);
         $lastMatch = DB::table('schedule')->get()->last();
         $clubs = DB::table('clubs')->get();
         $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
@@ -23,11 +24,19 @@ class AppServiceProvider extends ServiceProvider
         $date = date_create($lastMatch->date);
         $date = date_format($date, 'F d, Y');
         $lastMatch->date = $date;
-        Schema::defaultStringLength(191);
-        View::share(['lastMatch'=>$lastMatch,
-                    'clubs'=>$clubs,
-                    'homeTeam'=>$homeTeam,
-                    'guestTeam'=>$guestTeam,
+        $table = DB::table('table')->where('round','=', DB::table('table')->max('round'))->orderBy('points','desc')->get();
+        $logos = DB::table('clubs')->pluck('img','name');
+        $latestResults = DB::table('results')->where('home','=','All Stars')->orWhere('guest','=','All stars')
+                                                    ->orderBy('date','desc')->get();
+        $latestResult = $latestResults->first();
+        View::share(['lastMatch' => $lastMatch,
+                    'clubs' => $clubs,
+                    'homeTeam' => $homeTeam,
+                    'guestTeam' => $guestTeam,
+                    'table' => $table,
+                    'logos' => $logos,
+                    'latestResults' => $latestResults,
+                    'latestResult' => $latestResult
         ]);
     }
 

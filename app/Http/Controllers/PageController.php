@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use Mail;
+use App\Mail\Contact;
 use Illuminate\Http\Request;
 use App\Player;
 use DB;
 use App\Schedule;
+use function Symfony\Component\Console\Tests\Command\createClosure;
 
 class PageController extends Controller
 {
@@ -45,6 +48,24 @@ class PageController extends Controller
         return view('pages.history');
     }
 
+    public function contact()
+    {
+        return view('pages.contact');
+    }
+
+    public function sendMail(Request $request)
+    {
+        $contactInfo = [ 'name' => $request->name,
+                          'email'=>$request->email,
+                          'subject' =>$request->subject,
+                          'message' =>$request->message
+            ];
+
+        Mail::to('darko.vucetic7@gmail.com')->send(
+          new Contact($contactInfo)
+        );
+        //return 'success';
+    }
 
 
 }

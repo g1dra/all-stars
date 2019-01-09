@@ -3,15 +3,27 @@
 @section('content')
     <div class="row">
         <div class="content col-md-12">
-            <h1>Kreiraj album</h1>
+            <h1>Dodaj sliku</h1>
             @include('pages.message')
-            <form id="album-form" method="POST" action="/album" enctype="multipart/form-data">
+            <form id="image-form" method="POST" action="/image/create/{{$album_id}}" enctype="multipart/form-data">
                 @csrf
+                {{--<div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label class="control-label" for="album_id">Ime slike</label>
+                            <select name="album_id" id="select-album" class="form-control">
+                                @foreach($albums as $album)
+                                <option value="{{$album->id}}}">{{$album->name}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                </div>--}}
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label class="control-label" for="name">Ime albuma</label>
-                            <input id="name" name="name" type="text" class="form-control" placeholder="Ime albuma" value="{{old('name')}}">
+                            <label class="control-label" for="name">Ime slike</label>
+                            <input id="name" name="name" type="text" class="form-control" placeholder="Ime slike" value="{{old('name')}}">
                         </div>
                     </div>
                 </div>
@@ -24,12 +36,12 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <input type="file" id="cover_image" name="cover_image">
+                    <input type="file" class="form-control" name="images[]" multiple />
                 </div>
                 <div class="row">
                     <div class="col-md-3">
                         <p><a href="javascript:{}" class="btn btn-primary-inverse btn-lg"
-                              onclick="document.getElementById('album-form').submit();">Submit</a></p>
+                              onclick="document.getElementById('image-form').submit();">Submit</a></p>
                     </div>
                 </div>
             </form>

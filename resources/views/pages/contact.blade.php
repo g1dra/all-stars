@@ -23,30 +23,31 @@
                 <div class="col-md-8">
 
                     <!-- Contact Form -->
-                    <form action="#" class="contact-form">
+                    <form action="/contact" class="contact-form" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="contact-form-name">Ime i prezime <span class="required">*</span></label>
-                                    <input type="text" name="contact-form-name" id="contact-form-name" class="form-control" placeholder="Vaše puno ime...">
+                                    <label for="name">Ime i prezime <span class="required">*</span></label>
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Vaše puno ime...">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="contact-form-email">Email adresa <span class="required">*</span></label>
-                                    <input type="email" name="contact-form-email" id="contact-form-email" class="form-control" placeholder="Vaš email...">
+                                    <label for="email">Email adresa <span class="required">*</span></label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Vaš email...">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="contact-form-subject">Naslov</label>
-                                    <input type="text" name="contact-form-subject" id="contact-form-subject" class="form-control" placeholder="Naslov poruke...">
+                                    <label for="subject">Naslov</label>
+                                    <input type="text" name="subject" id="subject" class="form-control" placeholder="Naslov poruke...">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="contact-form-message">Poruka <span class="required">*</span></label>
-                            <textarea name="name" rows="5" class="form-control" placeholder="Tekst poruke..."></textarea>
+                            <label for="message">Poruka <span class="required">*</span></label>
+                            <textarea name="message" rows="5" class="form-control" placeholder="Tekst poruke..."></textarea>
                         </div>
                         <div class="form-group form-group--submit">
                             <button type="submit" class="btn btn-primary-inverse btn-lg btn-block">Poslati</button>

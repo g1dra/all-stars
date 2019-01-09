@@ -20,7 +20,7 @@
                     <div class="col-md-4">
                         <div class="form-group">
                             <label class="control-label" for="round">Kolo</label>
-                            <input type="text" class="form-control" id="round" name="round" placeholder="Unijete kolo">
+                            <input type="text" class="form-control" id="round" name="round" placeholder="Unijete broj kola (1 za prvo kolo itd)">
                         </div>
                     </div>
 

@@ -26,7 +26,7 @@
                             </h2>
                         </header>
                         <div class="team-roster__member-subheader">
-                            <div class="team-roster__member-position">1st Shooting Guard</div>
+                            {{--<div class="team-roster__member-position">1st Shooting Guard</div>--}}
                         </div>
                         <ul class="team-roster__member-details list-unstyled">
                             <li class="team-roster__member-details-item"><span class="item-title">Born:</span> <span class="item-desc">{{$player->date_of_birth}}</span></li>

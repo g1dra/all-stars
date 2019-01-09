@@ -8,7 +8,7 @@
                 <ol class="page-heading__breadcrumb breadcrumb">
                     <li class="breadcrumb-item"><a href="/">Home</a></li>
                     @for($i=0; $i <=count(Request::segments()); $i++)
-                            <a href="{{Request::segment($i)}}">{{Request::segment($i)}}</a>&nbsp/&nbsp;
+                            <a href="{{'/'.Request::segment($i)}}">{{Request::segment($i)}}</a>&nbsp/&nbsp;
                     @endfor
                     {{--<li class="breadcrumb-item"><a href="index.html">Home</a>
                     <li class="breadcrumb-item"><a href="team-overview.html">Team</a></li>

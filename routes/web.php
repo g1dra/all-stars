@@ -41,6 +41,10 @@ Route::post('/set-table', 'MatchController@storeTable')->name('storeTable')->mid
 Route::resource('/posts', 'PostController');
 Route::resource('/album','AlbumController');
 
+Route::get('/image/create/{album_id}','ImageController@create')->name('image.create');
+Route::post('/image/create/{album_id}','ImageController@store');
+Route::delete('/image/{id}','ImageController@destroy');
+
 
 
 Route::get('/team3', function () {
@@ -55,9 +59,8 @@ Route::get('/video-gallery', function () {
     return view('pages.video-gallery');
 })->name('video-gallery');;
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-})->name('contact');
+Route::get('/contact', 'PageController@contact')->name('contact');
+Route::post('/contact', 'PageController@sendMail')->name('contactPost');
 
 Auth::routes();
 

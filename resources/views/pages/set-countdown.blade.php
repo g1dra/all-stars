@@ -3,7 +3,7 @@
     <div class="row">
         <div class="content col-md-8">
             <h1>Naredni meč</h1>
-            <form id="schedule-form"method="POST" action="/set-countdown">
+            <form id="schedule-form" method="POST" action="/set-countdown">
                 @csrf
                 <div class="row">
                     <div class="col-md-4">

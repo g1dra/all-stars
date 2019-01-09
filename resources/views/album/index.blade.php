@@ -15,6 +15,9 @@
                     <div class="gallery__content card__content">
                                     <span class="gallery__icon">
                                         <span class="icon-camera"></span>
+                                        @if (Auth::check())
+                                            <span class="icon-close" onclick="myFunction(event,{{$album->id}})" style="color: red !important;"></span>
+                                        @endif
                                     </span>
                         <div class="gallery__details">
                             <h4 class="gallery__name">{{$album->name}}</h4>
@@ -48,4 +51,25 @@
         </ul>
     </nav>--}}
     <!-- Team Pagination / End -->
+    <script>
+        function myFunction(e,album_id) {
+            e.preventDefault();
+            if(confirm("Izbrisati album?")) {
+                $.ajax({
+                    url: '/album/' + album_id,
+                    type: 'DELETE',
+                    data: {"_token": "{{csrf_token()}}"},
+                    success: function (result) {
+                        location.href="/album";
+                    },
+                    error: function (request, mgs, error) {
+                        console.log("error");
+                    }
+                });
+            }
+            else {
+                return '';
+            }
+        }
+    </script>
 @endsection

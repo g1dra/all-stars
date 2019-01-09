@@ -25,7 +25,7 @@ class PostController extends Controller
         $lastMatch->date = $date;
 
         //$posts = DB::table('posts')->orderBy('created_at', 'desc')->paginate(5);
-        return view('posts.index', compact(['lastMatch','clubs','homeTeam','guestTeam','posts']));
+        return view('posts.index');
     }
 
     /**
