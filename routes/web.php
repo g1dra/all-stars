@@ -64,7 +64,7 @@ Route::post('/contact', 'PageController@sendMail')->name('contactPost');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
 
 Route::get('/test',function (){
     return view('test');

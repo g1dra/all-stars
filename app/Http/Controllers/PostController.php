@@ -70,7 +70,7 @@ class PostController extends Controller
                 $extension = $request->file('cover_image')->getClientOriginalExtension();
                 $fileNameToStore = $fileName.'_'.time().'.'.$extension;
                 //uploade image
-                $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
+                $path = $request->file('cover_image')->storeAs('public/posts/cover_images', $fileNameToStore);
             }
         else {
             $fileNameToStore ='noimage.jpg';

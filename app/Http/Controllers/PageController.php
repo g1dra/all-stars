@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Player;
 use DB;
 use App\Schedule;
-use function Symfony\Component\Console\Tests\Command\createClosure;
+
 
 class PageController extends Controller
 {

@@ -1,12 +1,12 @@
 @extends('layouts.master')
-@section('page-content')
+@section('content')
     <main id="page-content">
         <div class="container" style="margin-top: 95px">
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-lg-9 post-list">
                         <article class="post-list__item format-standart">
                             <figure class="thumbnail post-list__thumbnail">
-                                <a href="#"><img src="/storage/cover_images/{{$post->cover_image}}" alt="image-not-loaded"></a>
+                                <a href="#"><img src="/storage/posts/cover_images/{{$post->cover_image}}" alt="image-not-loaded"></a>
                             </figure>
                             <div class="post-list__item-content">
                                 <header class="post-list__item-header">

@@ -8,7 +8,7 @@
             <div class="card card--clean">
                 <header class="card__header card__header--has-btn">
                     <h4>Novosti</h4>
-                    {{--<a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Posts</a>--}}
+                    <a href="#" class="btn btn-default btn-outline btn-xs card-header__button">See All Posts</a>
                 </header>
                 <div class="card__content">
                     <!-- Posts List -->
