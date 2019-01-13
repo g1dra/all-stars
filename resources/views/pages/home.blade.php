@@ -20,8 +20,9 @@
                                     <figure class="posts__thumb">
                                         <a href="/posts/{{$post->id}}"><img src="/storage/posts/cover_images/{{$post->cover_image}}"
                                                          alt="{{$post->title}}"></a>
-                                        <a href="/posts/{{$post->id}}" class="posts__cta"></a>
-                                        <a href="#" onclick="deletePost(event,{{$post->id}})" class="posts__cta" style="right:20px !important; left: unset!important; background-color: red;"></a>
+                                        @auth
+                                            <a href="#" onclick="deletePost(event,{{$post->id}})" class="posts__cta" style="right:20px !important; left: unset!important; background-color: red;"></a>
+                                        @endauth
                                     </figure>
                                     <div class="posts__inner">
                                         <div class="card__content">
