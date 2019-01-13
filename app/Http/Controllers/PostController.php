@@ -81,7 +81,7 @@ class PostController extends Controller
         $post->cover_image = $fileNameToStore;
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post created !');
+        return redirect('/')->with('success', 'Post created !');
     }
 
     /**
@@ -127,6 +127,6 @@ class PostController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Post::destroy($id);
     }
 }

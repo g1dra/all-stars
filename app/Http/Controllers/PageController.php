@@ -8,13 +8,15 @@ use Illuminate\Http\Request;
 use App\Player;
 use DB;
 use App\Schedule;
+use App\Post;
 
 
 class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.home');
+        $posts = Post::orderBy('id','desc')->get();
+        return view('pages.home',compact('posts'));
     }
 
     public function teamGrid()

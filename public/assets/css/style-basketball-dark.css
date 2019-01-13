@@ -8498,6 +8498,8 @@ ul.posts:not(.post-grid) {
   margin-top: 5px;
 }
 
+
+
 @media (min-width: 992px) {
   .posts__item--card .posts__date + .posts__title {
     margin-top: 10px;

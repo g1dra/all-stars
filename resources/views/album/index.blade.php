@@ -16,7 +16,7 @@
                                     <span class="gallery__icon">
                                         <span class="icon-camera"></span>
                                         @if (Auth::check())
-                                            <span class="icon-close" onclick="myFunction(event,{{$album->id}})" style="color: red !important;"></span>
+                                            <span class="icon-close" onclick="deleteAlbum(event,{{$album->id}})" style="color: red !important;"></span>
                                         @endif
                                     </span>
                         <div class="gallery__details">
@@ -52,7 +52,7 @@
     </nav>--}}
     <!-- Team Pagination / End -->
     <script>
-        function myFunction(e,album_id) {
+        function deleteAlbum(e,album_id) {
             e.preventDefault();
             if(confirm("Izbrisati album?")) {
                 $.ajax({

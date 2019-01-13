@@ -31,7 +31,7 @@
                                     <time class="album__item-date" datetime="2016-08-23">{{$photo->created_at}}</time>
                                     <span class="album__item-btn-fab btn-fab btn-fab--clean"></span>
                                     @if (Auth::check())
-                                    <span class="album__item-btn-fab btn-fab all-stars-red" onclick="myFunction({{$photo->id.",".$album->id}});"></span>
+                                    <span class="album__item-btn-fab btn-fab all-stars-red" onclick="myFunction(event,{{$photo->id.",".$album->id}});"></span>
                                     @endif
                                 </div>
                             </a>
@@ -57,7 +57,8 @@
 
     </div>
     <script>
-        function myFunction(id,album_id) {
+        function myFunction(e,id,album_id) {
+            e.preventDefault();
             if(confirm("Izbrisati sliku?")) {
                 $.ajax({
                     url: '/image/'+id,
