@@ -63,7 +63,7 @@ class PageController extends Controller
                           'message' =>$request->message
             ];
 
-        Mail::to('darko.vucetic7@gmail.com')->send(
+        Mail::to('k.k.allstars02@gmail.com')->send(
           new Contact($contactInfo)
         );
         //return 'success';
