@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use DB;
+use App\Post;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -29,6 +30,10 @@ class AppServiceProvider extends ServiceProvider
         $latestResults = DB::table('results')->where('home','=','All Stars')->orWhere('guest','=','All stars')
                                                     ->orderBy('date','desc')->get();
         $latestResult = $latestResults->first();
+        $posts = Post::orderBy('id', 'desc')
+            ->take(3)
+            ->get();
+
         View::share(['lastMatch' => $lastMatch,
                     'clubs' => $clubs,
                     'homeTeam' => $homeTeam,
@@ -36,7 +41,8 @@ class AppServiceProvider extends ServiceProvider
                     'table' => $table,
                     'logos' => $logos,
                     'latestResults' => $latestResults,
-                    'latestResult' => $latestResult
+                    'latestResult' => $latestResult,
+                    'posts' => $posts
         ]);
     }
 
@@ -47,6 +53,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        if ($this->app->isLocal()) {
+            $this->app->register(TelescopeServiceProvider::class);
+        }
     }
 }
