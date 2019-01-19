@@ -68,28 +68,16 @@
                                 <h4 class="widget__title">Popular News</h4>
                                 <div class="widget__content">
                                     <ul class="posts posts--simple-list">
+                                        @foreach($posts as $post)
+                                            <li class="posts__item posts__item--category-2">
+                                                {{--<div class="posts__cat">--}}
+                                                    {{--<span class="label posts__cat-label">Injuries</span>--}}
+                                                {{--</div>--}}
+                                                <h6 class="posts__title"><a href="posts/{{$post->id}}">{{$post->title}}</a></h6>
+                                                <time datetime="2017-08-23" class="posts__date">{!! $post->body !!}</time>
+                                            </li>
+                                        @endforeach
 
-                                        <li class="posts__item posts__item--category-2">
-                                            <div class="posts__cat">
-                                                <span class="label posts__cat-label">Injuries</span>
-                                            </div>
-                                            <h6 class="posts__title"><a href="#">Mark Johnson has a Tibia Fracture and is gonna be out</a></h6>
-                                            <time datetime="2017-08-23" class="posts__date">August 23rd, 2018</time>
-                                        </li>
-                                        <li class="posts__item posts__item--category-1">
-                                            <div class="posts__cat">
-                                                <span class="label posts__cat-label">The Team</span>
-                                            </div>
-                                            <h6 class="posts__title"><a href="#">Jay Rorks is only 24 points away from breaking the record</a></h6>
-                                            <time datetime="2017-08-23" class="posts__date">August 22nd, 2018</time>
-                                        </li>
-                                        <li class="posts__item posts__item--category-1">
-                                            <div class="posts__cat">
-                                                <span class="label posts__cat-label">The Team</span>
-                                            </div>
-                                            <h6 class="posts__title"><a href="#">The new eco friendly stadium won a Leafy Award in 2016</a></h6>
-                                            <time datetime="2017-08-23" class="posts__date">June 8th, 2018</time>
-                                        </li>
 
                                     </ul>
                                 </div>
@@ -127,10 +115,10 @@
                         <ul class="footer-nav">
 
                             <li class="footer-nav__item"><a href="/">Početna</a></li>
-                            <li class="footer-nav__item"><a href="features-shortcodes.html">Features</a></li>
-                            <li class="footer-nav__item"><a href="team-standings.html">Statistics</a></li>
-                            <li class="footer-nav__item"><a href="team-overview.html">The Team</a></li>
-                            <li class="footer-nav__item"><a href="blog-3.html">News</a></li>
+                            <li class="footer-nav__item"><a href="/team">Roster</a></li>
+                            <li class="footer-nav__item"><a href="/mckl">I B MCKL</a></li>
+                            <li class="footer-nav__item"><a href="/album">Galerija</a></li>
+                            <li class="footer-nav__item"><a href="/contact">Kontakt</a></li>
 
 
                         </ul>
