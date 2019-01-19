@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
 use DB;
 use App\Post;
+use Laravel\Telescope\TelescopeServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -18,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-        $lastMatch = DB::table('schedule')->orderBy('date')->get()->last();
+        $lastMatch = DB::table('results')->orderBy('date')->get()->last();
         $clubs = DB::table('clubs')->get();
         $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
         $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
