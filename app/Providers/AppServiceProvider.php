@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
         $lastMatch->date = $date;
         $table = DB::table('table')->where('round','=', DB::table('table')->max('round'))->orderBy('points','desc')->get();
         $logos = DB::table('clubs')->pluck('img','name');
-        $latestResults = DB::table('results')->where('home','=','All Stars')->orWhere('guest','=','All stars')
+        $latestResults = DB::table('results')->where('home','=','All Stars')->orWhere('guest','=','All Stars')
                                                     ->orderBy('date','desc')->get();
         $latestResult = $latestResults->first();
         $posts = Post::orderBy('id', 'desc')

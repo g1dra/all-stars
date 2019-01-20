@@ -10,7 +10,7 @@
 
                             <!-- Footer Logo -->
                             <div class="footer-logo">
-                                <a href="/"><img src="/assets/images/logo_no_bg.png" srcset="/assets/images/logo@2x.png 2x" alt="Alchemists" class="footer-logo__img"></a>
+                                <a href="/"><img src="/assets/images/logo_no_bg.png" srcset="/assets/images/logo_no_bg.png" alt="Alchemists" class="footer-logo__img"></a>
                             </div>
                             <!-- Footer Logo / End -->
 

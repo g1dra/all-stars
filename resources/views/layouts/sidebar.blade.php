@@ -172,7 +172,7 @@
                         <!-- 1st Team -->
                         <div class="widget-game-result__team widget-game-result__team--first">
                             <figure class="widget-game-result__team-logo">
-                                <a href="#"><img src="{{$logos[$latestResult->home]}}" alt=""></a>
+                                {{--<a href="#"><img src="{{$logos[$latestResult->home]}}" alt=""></a>--}}
                             </figure>
                             <div class="widget-game-result__team-info">
                                 <h5 class="widget-game-result__team-name">{{$latestResult->home}}</h5>
@@ -203,7 +203,7 @@
                         <!-- 2nd Team -->
                         <div class="widget-game-result__team widget-game-result__team--second">
                             <figure class="widget-game-result__team-logo">
-                                <a href="#"><img src="{{$logos[$latestResult->guest]}}" alt=""></a>
+                                {{--<a href="#"><img src="{{$logos[$latestResult->guest]}}" alt=""></a>--}}
                             </figure>
                             <div class="widget-game-result__team-info">
                                 <h5 class="widget-game-result__team-name">{{$latestResult->guest}}</h5>

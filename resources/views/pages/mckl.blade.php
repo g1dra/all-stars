@@ -88,7 +88,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td class="team-result__score"><span class="team-result__game">{{$res->guest_points > $res->home_points? "L" : "W"}}
+                                <td class="team-result__score"><span class="team-result__game">{{$res->home_points > $res->guest_points? "L" : "W"}}
                                     </span> {{$res->guest_points}}-{{$res->home_points}}
                                 </td>
                                 <td class="team-result__status">Domaćin</td>
