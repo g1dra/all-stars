@@ -55,6 +55,7 @@ class MatchController extends Controller
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
+        return redirect('/')->with('notifications','Result set!');
     }
 
     public function storeTable(Request $request)
@@ -71,5 +72,6 @@ class MatchController extends Controller
             ];
         }
         DB::table('table')->insert($array);
+        return redirect('/')->with('notifications','Table set!');
     }
 }
