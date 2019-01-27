@@ -20,6 +20,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
         $lastMatch = DB::table('schedule')->orderBy('date')->get()->last();
+        dd($lastMatch);
         $clubs = DB::table('clubs')->get();
         $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
         $guestTeam = DB::table('clubs')->where('name','=', $lastMatch->guest)->get()->first();
