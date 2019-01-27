@@ -19,7 +19,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(191);
-        $lastMatch = DB::table('schedule')->orderBy('date')->get()->last();
+        $lastMatch = DB::table('results')->orderBy('date')->get()->last();
         dd($lastMatch);
         $clubs = DB::table('clubs')->get();
         $homeTeam = DB::table('clubs')->where('name','=', $lastMatch->home)->get()->first();
