@@ -93,7 +93,7 @@
                                 <h4 class="widget__title">Instagram Widget</h4>
                                 <div class="widget__content">
                                     <ul id="instagram-feed" class="widget-instagram__list"></ul>
-                                    <a href="https://www.instagram.com/dan.fisher.dev" class="btn btn-sm btn-instagram btn-icon-right">Follow Our Instagram <i class="icon-arrow-right"></i></a>
+                                    <a href="https://www.instagram.com/k.k.allstars02/?hl=en" class="btn btn-sm btn-instagram btn-icon-right">Follow Our Instagram <i class="icon-arrow-right"></i></a>
                                 </div>
                             </div>
                             <!-- Widget: Instagram / End -->
