@@ -3,7 +3,7 @@
     <div class="row">
         <div class="content col-md-8">
             <h1>Rezultati meča</h1>
-            <form id="schedule-form"method="POST" action="/storeResult">
+            <form id="schedule-form"method="POST" action="/set-result">
                 @csrf
                 <div class="row">
                     <div class="col-md-4">
