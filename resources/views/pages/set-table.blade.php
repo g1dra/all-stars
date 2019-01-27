@@ -25,11 +25,9 @@
 
                     </div>
                     <div class="col-md-3">
-                        <select name="round" id="select-round" class="form-control">
-                            @for ($i=1; $i < 13; $i++)
-                                <option value="{{$i}}"> Kolo {{$i}}. </option>
-                            @endfor
-                        </select>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="round" name="round" placeholder="Unijete broj kola">
+                        </div>
                     </div>
                     <div class="col">
                         <div class="col-md-3">

@@ -1470,7 +1470,7 @@
 					get: 'user',
 					target: 'instagram-feed',
 					userId: '6173932768',
-					accessToken: '',
+					accessToken: '6173932768.1677ed0.75af3edc44a444558f3245055750d620',
 					limit: 6,
 					template: '<li class="widget-instagram__item"><a href="{{link}}" id="{{id}}" class="widget-instagram__link-wrapper" target="_blank"><span class="widget-instagram__plus-sign"><img src="{{image}}" alt="" class="widget-instagram__img" /></span></a></li>'
 				});
